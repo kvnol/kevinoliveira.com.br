@@ -11,6 +11,7 @@
     "gh-pages": "^0.12.0",
     "handlebars": "^4.0.6",
     "load-metalsmith-plugins": "^0.1.1",
-    "metalsmith": "^2.3.0"
+    "metalsmith": "^2.3.0",
+    "metalsmith-assets": "^0.1.0"
   }
 }
