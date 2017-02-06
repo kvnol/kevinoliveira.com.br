@@ -17,6 +17,7 @@
     "metalsmith-date-formatter": "^1.0.2",
     "metalsmith-date-in-filename": "0.0.14",
     "metalsmith-filemetadata": "^1.0.0",
-    "metalsmith-in-place": "^2.0.1"
+    "metalsmith-in-place": "^2.0.1",
+    "metalsmith-layouts": "^1.8.0"
   }
 }
