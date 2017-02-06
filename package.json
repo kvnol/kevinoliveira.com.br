@@ -23,6 +23,7 @@
     "metalsmith-metallic": "^2.0.1",
     "metalsmith-permalinks": "^0.5.0",
     "metalsmith-sass": "^1.4.0",
-    "metalsmith-serve": "0.0.7"
+    "metalsmith-serve": "0.0.7",
+    "metalsmith-slug": "^0.2.0"
   }
 }
