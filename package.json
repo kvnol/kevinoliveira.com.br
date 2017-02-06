@@ -15,6 +15,7 @@
     "metalsmith-assets": "^0.1.0",
     "metalsmith-collections": "^0.9.0",
     "metalsmith-date-formatter": "^1.0.2",
-    "metalsmith-date-in-filename": "0.0.14"
+    "metalsmith-date-in-filename": "0.0.14",
+    "metalsmith-filemetadata": "^1.0.0"
   }
 }
