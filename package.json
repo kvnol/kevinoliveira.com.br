@@ -25,6 +25,7 @@
     "metalsmith-sass": "^1.4.0",
     "metalsmith-serve": "0.0.7",
     "metalsmith-slug": "^0.2.0",
-    "metalsmith-watch": "^1.0.3"
+    "metalsmith-watch": "^1.0.3",
+    "pretty-hrtime": "^1.0.3"
   }
 }
