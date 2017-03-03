@@ -7,7 +7,7 @@
 
     @if $i < $max 
       $animations: #{$animations + ", "}
-      
+
   -webkit-animation: $animations
   -moz-animation: $animations
   -o-animation: $animations
@@ -25,4 +25,3 @@
   
   @keyframes #{$animationName} 
     @content
-  
