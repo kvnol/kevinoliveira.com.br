@@ -1,4 +1,5 @@
 title: Kevin Oliveira
+subtitle: Front-end, UX and musician.
 email: me@kevinoliveira.com.br
 description: >
   Front-end, UX and musician. Work at Insane.
@@ -8,9 +9,3 @@ user: kvnol
 
 # Build settings
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
