@@ -1,4 +1,15 @@
++keyframes(masthead)
+  0%
+    opacity: 0
+    +translate(0, -2rem)
+    
+  100%
+    opacity: 1
+    +translate(0, -2rem)
+
 .masthead
+  +animation('masthead .5s 1 linear')
+  +transition(.5s all ease)
   text-align: center
 
 .masthead-title,
