@@ -1,10 +1,12 @@
-<header class="header">
+<header class="header" role="banner">
   <div class="logo">
-    <a href="{{ site.url }}"><img src="/assets/img/kvnol.png" alt="{{ site.title }}" class="logo-img"></a>
-    <h1 class="logo-title">
-      <span class="logo-title_firstname">Kevin</span>
-      <span class="logo-title_lastname">Oliveira</span>
-    </h1>
+    <a href="{{ site.url }}">
+      <img src="/assets/img/kvnol.png" alt="{{ site.title }}" class="logo-img">
+      <h1 class="logo-title">
+        <span class="logo-title_firstname">Kevin</span>
+        <span class="logo-title_lastname">Oliveira</span>
+      </h1>
+    </a>
   </div>
 
   <nav class="menu-list">
@@ -14,9 +16,23 @@
     <a href="/projects" class="menu-item">Projects</a>
   </nav>
 
-  <nav class="social-list">
-    <a href="https://github.com/{{ site.user }}" class="social-item" title="GitHub"></a>
-    <a href="https://twitter.com/{{ site.user }}" class="social-item" title="Twitter"></a>
-    <a href="https://facebook.com/{{ site.user }}" class="social-item" title="Facebook"></a>
-  </nav>
+  <div class="social">
+    <ul class="social-list">
+      <li class="social-item">
+        <a href="https://github.com/{{ site.user }}" class="social-link" title="GitHub">
+          {% include _icons/github.svg %}
+        </a>
+      </li>
+      <li class="social-item">
+        <a href="https://twitter.com/{{ site.user }}" class="social-link" title="Twitter">
+          {% include _icons/twitter.svg %}
+        </a>
+      </li>
+      <li class="social-item">
+        <a href="https://facebook.com/{{ site.user }}" class="social-link" title="Facebook">
+          {% include _icons/facebook.svg %}
+        </a>
+      </li>
+    </ul>
+  </div>
 </header>

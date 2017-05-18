@@ -1,7 +1,23 @@
 ---
 # default
 ---
-{% include head.html %}
-{% include header.html %}
-{{ content }}
-{% include footer.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.title }} | {{ site.subtitle }}</title>
+  <meta name="description" content="{{ site.description }}">
+  
+  <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+  <link href="/assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    {% include header.html %}
+    <main class="main" role="main">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </div>
+</body>
+</html>
