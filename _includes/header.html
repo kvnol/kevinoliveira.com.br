@@ -1,5 +1,22 @@
-<header class="masthead">
-  <a href="{{ site.url }}"><img src="/assets/img/kvnol.png" alt="{{ site.title }}" class="masthead-img"></a>
-  <h1 class="masthead-title">{{ site.title }}</h1>
-  <h2 class="masthead-subtitle">{{ site.subtitle }}</h2>
+<header class="header">
+  <div class="logo">
+    <a href="{{ site.url }}"><img src="/assets/img/kvnol.png" alt="{{ site.title }}" class="logo-img"></a>
+    <h1 class="logo-title">
+      <span class="logo-title_firstname">Kevin</span>
+      <span class="logo-title_lastname">Oliveira</span>
+    </h1>
+  </div>
+
+  <nav class="menu-list">
+    <a href="/about" class="menu-item">About</a>
+    <a href="/blog" class="menu-item">Blog</a>
+    <a href="/portfolio" class="menu-item">Portfolio</a>
+    <a href="/projects" class="menu-item">Projects</a>
+  </nav>
+
+  <nav class="social-list">
+    <a href="https://github.com/{{ site.user }}" class="social-item" title="GitHub"></a>
+    <a href="https://twitter.com/{{ site.user }}" class="social-item" title="Twitter"></a>
+    <a href="https://facebook.com/{{ site.user }}" class="social-item" title="Facebook"></a>
+  </nav>
 </header>
