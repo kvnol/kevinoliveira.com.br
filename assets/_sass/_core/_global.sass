@@ -33,7 +33,11 @@ h6
 
 .container
   @extend %flexbox
+  +flex-direction(column)
   margin: 
     top: 4.0625rem
     left: 4.0625rem
     right: 4.0625rem
+
+  @media (min-width: 64rem)
+    +flex-direction(row)
