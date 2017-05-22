@@ -2,18 +2,25 @@
   <div class="logo">
     <a href="{{ site.url }}">
       <img src="/assets/img/kvnol.png" alt="{{ site.title }}" class="logo-img">
+      {% if page.url == '/' %}
       <h1 class="logo-title">
         <span class="logo-title_firstname">Kevin</span>
         <span class="logo-title_lastname">Oliveira</span>
       </h1>
+      {% else %}
+      <h2 class="logo-title">
+        <span class="logo-title_firstname">Kevin</span>
+        <span class="logo-title_lastname">Oliveira</span>
+      </h2>
+      {% endif %}
     </a>
   </div>
 
   <nav class="menu-list">
     <a href="/" class="menu-item{% if page.url == '/' %} menu-item--current{% endif %}">About</a>
-    <a href="/blog" class="menu-item{% if page.url == '/blog' %} menu-item--current{% endif %}">Blog</a>
-    <a href="/portfolio" class="menu-item{% if page.url == '/portfolio' %} menu-item--current{% endif %}">Portfolio</a>
-    <a href="/projects" class="menu-item{% if page.url == '/projects' %} menu-item--current{% endif %}">Projects</a>
+    <a href="/blog/" class="menu-item{% if page.url == '/blog/' %} menu-item--current{% endif %}">Blog</a>
+    <a href="/portfolio/" class="menu-item{% if page.url == '/portfolio/' %} menu-item--current{% endif %}">Portfolio</a>
+    <a href="/projects/" class="menu-item{% if page.url == '/projects/' %} menu-item--current{% endif %}">Projects</a>
   </nav>
 
   <div class="social">

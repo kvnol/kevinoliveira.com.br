@@ -1,0 +1,52 @@
+.blog-content
+  width: 100%
+  max-width: 60rem
+  font-family: 'Lato', sans-serif
+
+.blog-list
+  margin: 0
+  padding: 0
+  list-style: none
+
+.blog-item:not(:last-child)
+  margin-bottom: 1.875rem
+
+.blog-item_title,
+.blog-postHeader_title
+  font:
+    family: $fheading
+    size: 1.8rem
+  color: $cheading
+
+.blog-postHeader_title
+  margin-bottom: 1.25rem
+  line-height: 2.6rem
+  font-size: 2.6rem
+
+.blog-item_link
+  color: $cheading
+
+.blog-post p,
+.blog-post ul
+  font-size: 1.3rem
+  margin: 1.8rem 0
+
+.blog-post ul
+  padding: 0
+  list-style: none
+
+.blog-post ul li
+  margin: 1rem 0
+
+.blog-post p a,
+.blog-post ul li a
+  font-weight: 400
+  color: $ctheme
+
+  &:hover
+    border-bottom: 1px solid
+    color: lighten($ctheme, 15%)
+
+.blog-post p img
+  width: 100%
+  height: auto
