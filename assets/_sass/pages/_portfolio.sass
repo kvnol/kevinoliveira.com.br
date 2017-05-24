@@ -1,0 +1,24 @@
+.portfolio-content
+  width: 100%
+
+.portfolio-list
+  @extend %flexbox
+  +flex-wrap(wrap)
+  margin: 0
+  padding: 0
+  list-style: none
+
+.portfolio-item
+  width: 30%
+  margin:
+    right: .9375rem
+    bottom: .9375rem
+
+.portfolio-item_image
+  width: 100%
+  +border-radius(.3125rem)
+  +transition(.4s all ease)
+
+  &:hover
+    +box-shadow(0 .3125rem .625rem rgba(0,0,0,.25))
+    +translate(0, -(.3125rem))
