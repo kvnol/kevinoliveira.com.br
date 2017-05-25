@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title }} | {{ page.subtitle }}</title>
+  <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="description" content="{{ page.description }}">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="google-site-verification" content="e8tKK8_XjvMNTjaAiBPkX3bu_03VuuQzNjcHFTMS8mI">
@@ -18,12 +18,10 @@
   <div class="container">
     {% include header.html %}
     <main class="main" role="main">
-      {% if page.url != '/' %}
       <header class="main-header">
         <h1 class="main-header_title">{{ page.title }}</h1>
         <h2 class="main-header_subtitle">{{ page.subtitle }}</h2>
       </header>
-      {% endif %}
       {{ content }}
     </main>
   </div>
