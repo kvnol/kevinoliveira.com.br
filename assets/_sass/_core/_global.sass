@@ -35,9 +35,15 @@ h6
   @extend %flexbox
   +flex-direction(column)
   margin: 
-    top: 4.0625rem
-    left: 4.0625rem
-    right: 4.0625rem
+    top: 1.3rem
+    left: 1.3rem
+    right: 1.3rem
+
+  @media (min-width: 40rem)
+    margin: 
+      top: 4.0625rem
+      left: 4.0625rem
+      right: 4.0625rem
 
   @media (min-width: 64rem)
     +flex-direction(row)

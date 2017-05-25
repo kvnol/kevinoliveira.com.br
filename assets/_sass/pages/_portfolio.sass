@@ -9,10 +9,16 @@
   list-style: none
 
 .portfolio-item
-  width: 30%
+  width: 100%
   margin:
     right: .9375rem
     bottom: 1.875rem
+
+  @media (min-width: 64rem)
+    width: 47%
+
+  @media (min-width: 90rem)
+    width: 30%
 
 .portfolio-item_image
   width: 100%
