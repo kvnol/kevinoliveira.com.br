@@ -12,13 +12,38 @@
   width: 30%
   margin:
     right: .9375rem
-    bottom: .9375rem
+    bottom: 1.875rem
 
 .portfolio-item_image
   width: 100%
+  display: block
   +border-radius(.3125rem)
   +transition(.4s all ease)
 
   &:hover
     +box-shadow(0 .3125rem .625rem rgba(0,0,0,.25))
     +translate(0, -(.3125rem))
+
+.portfolio-item_content
+  margin-top: .9375rem
+  font-family: 'Lato', sans-serif
+
+.portfolio-item_title
+  font-size: 1.8rem
+
+.portfolio-item_text
+  margin: 0
+  font-size: 1.2rem
+  color: lighten($cdark, 20%)
+
+.portfolio-item_details
+  margin-top: .75rem
+
+.portfolio-item_tag
+  padding: .3125rem
+  +border-radius(.3125rem)
+  font:
+    family: $ffamily
+    size: .75rem
+  color: #fff
+  background-color: $ctheme
