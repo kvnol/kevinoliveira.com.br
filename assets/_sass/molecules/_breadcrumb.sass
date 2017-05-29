@@ -1,0 +1,17 @@
+.blog-breadcrumb_list
+  margin: 0 0 1.25rem
+  padding: 0
+  list-style: none
+
+.blog-breadcrumb_item
+  display: inline-block
+
+  &:not(:last-child)
+    margin-right: .6125rem
+    
+    .blog-breadcrumb_link
+      color: $clight
+
+    &:after
+      content: '>'
+      margin-left: .6125rem

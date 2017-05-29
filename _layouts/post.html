@@ -21,6 +21,22 @@
       <section class="blog-content">
         <article class="blog-post">
           <header class="blog-postHeader">
+            <nav class="blog-breadcrumb">
+              <ol class="blog-breadcrumb_list" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                <li class="blog-breadcrumb_item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                  <a href="/" class="blog-breadcrumb_link" itemprop="item">Home</a>
+                  <meta itemprop="position" content="1" />
+                </li>
+                <li class="blog-breadcrumb_item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                  <a href="/blog/" class="blog-breadcrumb_link" itemprop="item">Blog</a>
+                  <meta itemprop="position" content="2" />
+                </li>
+                <li class="blog-breadcrumb_item{% if page.url == page.url %} blog-breadcrumb_item--current{% endif %}" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                  <a href="{{ page.url }}" class="blog-breadcrumb_link" itemprop="item">{{ page.title }}</a>
+                  <meta itemprop="position" content="1" />
+                </li>
+              </ol>
+            </nav>
             <h1 class="blog-postHeader_title">{{ page.title }}</h1>
             {% if page.subtitle %}
             <h2 class="blog-postHeader_subtitle">{{ page.subtitle }}</h2>
