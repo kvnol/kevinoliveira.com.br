@@ -52,7 +52,7 @@
   </style>
 </head>
 <body>
-  <main class="card" role="main">
+  <main class="card" role="main" itemscope itemtype="http://schema.org/Person">
     <header class="card-header" role="banner">
       <figure class="card-cover">
         <img class="card-cover_img" src="/img/card-cover.png" alt="UI design wireframe cover">
@@ -60,10 +60,10 @@
 
       <article class="card-info">
         <figure class="card-avatar">
-          <img class="card-avatar_img" src="/img/avatar.png" alt="Kevin Oliveira photo">
+          <img class="card-avatar_img" itemprop="image" src="/img/avatar.png" alt="Kevin Oliveira photo">
         </figure>
-        <h1 class="card-title">Kevin Oliveira</h1>
-        <p class="card-description">Front-end at Insane, previously at LojasIncor. Creator of Devnspiration and designer at Front-End Brasil community.</p>
+        <h1 class="card-title" itemprop="name">Kevin Oliveira</h1>
+        <p class="card-description"><span itemprop="jobTitle">Front-end</span> at <span itemprop="affiliation">Insane</span>, previously at LojasIncor. Creator of <span itemprop="memberOf">Devnspiration</span> and designer at <span itemprop="memberOf">Front-End Brasil community</span>.</p>
       </article>
 
       <nav class="card-social" role="navigation">
