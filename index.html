@@ -27,32 +27,10 @@
   <link rel="icon" type="image/x-icon" href="https://kevinoliveira.com.br/favicon.ico">
   <link rel="icon" type="image/png" href="https://kevinoliveira.com.br/img/avatar.png">
 
-  <style>
-  * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-  html { height: 100%; }
-  body { height: 100%; display: flex; align-items: center; justify-content: center; margin: 0; font-family: 'Lato', sans-serif; font-size: 16px; font-weight: normal; background-image: url(/img/bg.png); background-repeat: no-repeat; background-position: bottom center; background-size: cover; color: #111111; }
-  body:after { content: ""; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-color: rgba(158, 138, 121, .4); }
-  .card { position: relative; z-index: 1; overflow: hidden; max-width: 28.125rem; width: 80%; height: 80vh; background-color: #fff; border-radius: .3125rem; box-shadow: 0 .375rem .75rem rgba(0,0,0,.2); }
-  .card-cover { overflow: hidden; height: 20vh; margin: 0 auto -3.125rem; }
-  .card-cover_img { display: block; }
-  .card-info { position: relative; margin-bottom: 1.875rem; text-align: center; }
-  .card-avatar { overflow: hidden; display: block; width: 6.25rem; height: 6.25rem; margin: 0 auto 30px; border: .25rem solid #fff; border-radius: 50%; box-shadow: 0 .125rem .25rem rgba(0,0,0,.1); object-fit: cover; }
-  .card-avatar_img { display: block; width: 100%; }
-  .card-title { margin: 0 auto .9375rem; font-size: 1.6rem; font-weight: 300; line-height: 1.875rem; }
-  .card-description { max-width: 19.6875rem; width: 80%; margin: 0 auto; font-size: .9rem; color: #a5a5a5; }
-  .card-social { display: flex; align-items: center; justify-content: center; }
-  .card-social_item { overflow: hidden; display: block; width: 28px; height: 28px; margin: 0 15px; opacity: .3; transition: .2s all ease; }
-  .card-social_item:hover { opacity: .5; }
-  .card-social_icon { width: 100%; height: 100%; }
-  @media (min-width: 28.75rem) { .card-title { font-size: 2.25rem; } .card-description { font-size: 1rem; } }
-  @media (min-height: 30rem) { .card-avatar { width: 7.5rem; height: 7.5rem; } }
-  @media (min-height: 35.625rem) { .card-avatar { width: 8.75rem; height: 8.75rem; } }
-  @media (min-height: 43.75rem) { .card-cover { height: 34vh; } }
-  @media (min-height: 46.875rem) { .card { height: 43.75rem; } .card-cover { height: 20.625rem; } }
-  </style>
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-  <main class="card" role="main">
+  <main class="card" data-js="card" role="main">
     <header class="card-header" role="banner">
       <figure class="card-cover">
         <img class="card-cover_img" src="/img/card-cover.png" alt="UI design wireframe cover">
@@ -69,9 +47,18 @@
       <nav class="card-social" role="navigation">
         <a class="card-social_item" href="https://github.com/kvnol" target="_blank" rel="noopener noreferrer" title="@kvnol on Github"><img class="card-social_icon" src="/img/github-icon.svg" alt="Github icon"></a>
         <a class="card-social_item" href="https://twitter.com/kvnol" target="_blank" rel="noopener noreferrer" title="@kvnol on Twitter"><img class="card-social_icon" src="/img/twitter-icon.svg" alt="Twitter icon"></a>
-        <a class="card-social_item" href="https://medium.com/kvnol" target="_blank" rel="noopener noreferrer" title="@kvnol on Medium"><img class="card-social_icon" src="/img/medium-icon.svg" alt="Github icon"></a>
+        <a class="card-social_item" data-js="medium-icon" href="https://medium.com/kvnol" target="_blank" rel="noopener noreferrer" title="@kvnol on Medium"><img class="card-social_icon" src="/img/medium-icon.svg" alt="Github icon"></a>
       </nav>
     </header>
+    <section class="card-posts">
+      <a class="card-back" data-js="card-back"><span>back to home</span></a>
+      <ul class="card-list" data-js="post-list">
+        <h4 class="card-list__title">Blog</h4>
+        <h5 class="card-list__subtitle">Latest posts on Medium:</h5>
+      </ul>
+    </section>
   </main>
+
+  <script src="/js/main.js"></script>
 </body>
 </html>
