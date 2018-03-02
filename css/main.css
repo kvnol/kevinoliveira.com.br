@@ -167,11 +167,6 @@ body:after {
   color: #fff;
 }
 
-.card-list__item-title:visited {
-  background-color: #9fd2a1;
-  color: #fff;
-}
-
 .card-back:before {
   content: "";
   display: inline-block;
