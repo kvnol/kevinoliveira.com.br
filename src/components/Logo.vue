@@ -21,7 +21,13 @@ export default {
   margin-left: -(6.25rem)
   display: flex
   align-items: center
+  width: max-content
   user-select: none
+
+  &:hover
+    .logo-title
+      opacity: 1
+      transform: translateX(0)
 
   &-symbol
     margin-right: 1.875rem
@@ -30,4 +36,7 @@ export default {
     font-size: .75rem
     text-transform: uppercase
     letter-spacing: .4em
+    opacity: 0
+    transform: translateX(-70px)
+    transition: .3s all ease
 </style>
