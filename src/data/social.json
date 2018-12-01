@@ -1,28 +1,26 @@
-{
-  "social": {
-    "twitter": {
-      "slug": "Tw",
-      "title": "Twitter",
-      "username": "@kvnol",
-      "url": "https://twitter.com/kvnol"
-    },
-    "github": {
-      "slug": "Gh",
-      "title": "GitHub",
-      "username": "kvnoliv",
-      "url": "https://facebook.com/kvnoliv"
-    },
-    "dribbble": {
-      "slug": "Dr",
-      "title": "Dribbble",
-      "username": "kvnol",
-      "url": "https://dribbble.com/kvnol"
-    },
-    "medium": {
-      "slug": "Md",
-      "title": "Medium",
-      "username": "kvnol",
-      "url": "https://medium.com/kvnol"
-    }
+[
+  {
+    "slug": "Tw",
+    "title": "Twitter",
+    "username": "@kvnol",
+    "url": "https://twitter.com/kvnol"
+  },
+  {
+    "slug": "Gh",
+    "title": "GitHub",
+    "username": "kvnol",
+    "url": "https://github.com/kvnol"
+  },
+  {
+    "slug": "Dr",
+    "title": "Dribbble",
+    "username": "kvnol",
+    "url": "https://dribbble.com/kvnol"
+  },
+  {
+    "slug": "Md",
+    "title": "Medium",
+    "username": "kvnol",
+    "url": "https://medium.com/kvnol"
   }
-}
+]
