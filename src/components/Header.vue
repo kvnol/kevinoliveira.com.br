@@ -16,8 +16,8 @@ export default {
 
 <style lang="sass" scoped>
 .header
-  max-width: 1520px
-  width: 80%
+  max-width: 1715px
+  width: 90%
   margin: 0 auto
   padding: 3.125rem 0
 </style>

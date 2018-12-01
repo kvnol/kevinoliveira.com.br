@@ -21,32 +21,28 @@ export default {
 }
 </script>
 
-<style>
-html, body, #app, .home {
-  width: 100%;
-  height: 100%;
-}
+<style lang="sass">
+html, body, #app, .home
+  width: 100%
+  height: 100%
 
-html {
-  font-size: 16px;
-  box-sizing: border-box;
-  text-rendering: optimizeLegibility;
-}
+html
+  font-size: 16px
+  box-sizing: border-box
+  text-rendering: optimizeLegibility
 
-*, *::before, *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
+*, *::before, *::after
+  margin: 0
+  padding: 0
+  box-sizing: inherit
 
-body {
-  background-color: #121212;
-  color: #fff;
-  font-family: 'Proxima Nova Alt', sans-serif;
-}
+body
+  background-color: #121212
+  color: #fff
+  font-family: 'Proxima Nova Alt', sans-serif
 
-.home {
-  display: flex;
-  flex-direction: column;
-}
+.home
+  @media (min-width: 64rem)
+    display: flex
+    flex-direction: column
 </style>

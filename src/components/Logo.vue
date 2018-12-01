@@ -18,7 +18,6 @@ export default {
 
 <style lang="sass" scoped>
 .logo
-  margin-left: -(6.25rem)
   display: flex
   align-items: center
   width: max-content
