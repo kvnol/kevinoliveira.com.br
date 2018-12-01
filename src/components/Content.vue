@@ -20,7 +20,7 @@ export default {
   width: 90%
   margin: 0 auto
 
-  @media (min-width: 64rem)
+  @media (min-width: 64rem) and (min-height: 48.75rem) 
     display: flex
     align-items: center
     flex: 1

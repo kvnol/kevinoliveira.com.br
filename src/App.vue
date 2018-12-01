@@ -42,7 +42,7 @@ body
   font-family: 'Proxima Nova Alt', sans-serif
 
 .home
-  @media (min-width: 64rem)
+  @media (min-width: 64rem) and (min-height: 48.75rem)
     display: flex
     flex-direction: column
 </style>
