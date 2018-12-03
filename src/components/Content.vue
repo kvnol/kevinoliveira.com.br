@@ -5,12 +5,18 @@
       <p>My name is <strong class="presentation-name">Kevin Oliveira.</strong></p>
       <p>I am <strong>designer, </strong> <strong>developer</strong> and <strong>musician.</strong></p>
     </article>
+
+    <Photos></Photos>
   </main>
 </template>
 
 <script>
-export default {
+import Photos from './Photos.vue'
 
+export default {
+  components: {
+    Photos
+  }
 }
 </script>
 
@@ -24,6 +30,7 @@ export default {
     display: flex
     align-items: center
     flex: 1
+    justify-content: space-between
 
 .presentation
   max-width: 390px
