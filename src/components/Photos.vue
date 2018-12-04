@@ -1,14 +1,53 @@
 <template>
   <section class="photos">
-    <a
-      v-for="(photo, index) in photos"
-      :key="photo.id"
-      v-if="!photo.tags.includes('ui') && index < 12"
-      :href="photo.link"
-      :class="['photos-item', photos.id]"
-      title="View photo on Instagram">
-      <img :src="photo.images.low_resolution.url">
-    </a>
+    <div class="photos-row">
+      <a
+        v-for="(photo, index) in photos"
+        :key="photo.id"
+        v-if="!photo.tags.includes('ui') && index === 0"
+        :href="photo.link"
+        :class="['photos-item', photos.id]"
+        title="View photo on Instagram">
+        <img :src="photo.images.low_resolution.url">
+      </a>
+    </div>
+
+    <div class="photos-row">
+      <a
+        v-for="(photo, index) in photos"
+        :key="photo.id"
+        v-if="!photo.tags.includes('ui') && index > 0 && index < 7"
+        :href="photo.link"
+        :class="['photos-item', photos.id]"
+        title="View photo on Instagram">
+        <img :src="photo.images.low_resolution.url">
+      </a>
+    </div>
+
+    <div class="photos-row">
+      <a
+        v-for="(photo, index) in photos"
+        :key="photo.id"
+        v-if="!photo.tags.includes('ui') && index > 7 && index < 13"
+        :href="photo.link"
+        :class="['photos-item', photos.id]"
+        title="View photo on Instagram">
+        <img :src="photo.images.low_resolution.url">
+      </a>
+    </div>
+
+    <div class="photos-row">
+      <a
+        v-for="(photo, index) in photos"
+        :key="photo.id"
+        v-if="!photo.tags.includes('ui') && index === 14"
+        :href="photo.link"
+        :class="['photos-item', photos.id]"
+        title="View photo on Instagram">
+        <img :src="photo.images.low_resolution.url">
+      </a>
+    </div>
+    
   </section>
 </template>
 
@@ -26,7 +65,6 @@ export default {
       .get('https://api.instagram.com/v1/users/self/media/recent/?access_token=30773619.013b0eb.be841eb85a4e4ee8a2de87856101a12c')
       .then(response => {
         this.photos = response.data.data
-        console.log(response.data)
       })
   }
 }
@@ -34,56 +72,24 @@ export default {
 
 <style lang="sass" scoped>
 .photos
-  position: relative
-  max-width: 940px
-  width: 90%
-  height: 100%
   display: none
 
   @media (min-width: 64rem)
+    display: block
+
+  &-row
     display: flex
-    flex-wrap: wrap
+    margin: 2rem 0
 
 .photos-item
-  position: absolute
+  position: relative
   overflow: hidden
   border-radius: 50%
-
-  &:nth-child(1)
-    top: 0rem
-    left: 9rem
-
-  &:nth-child(2)
-    top: 4rem
-    left: 20rem
-
-  &:nth-child(3)
-    top: 12rem
-    left: 29rem
-
-  &:nth-child(4)
-    top: 10rem
-    left: 0
-
-  &:nth-child(5)
-    top: 11rem
-    left: 12rem
-
-  &:nth-child(6)
-    top: 17rem
-    left: 18rem
-
-  &:nth-child(7)
-    top: 21rem
-    left: 8rem
-  
-  &:nth-child(8)
-    top: 24rem
-    left: 29rem
-
+  display: block
 
   &:after
     content: ''
+    position: relative
     background-position: center
     transition: .3s all ease
 

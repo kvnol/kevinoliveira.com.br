@@ -31,7 +31,11 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+      "vue/no-use-v-if-with-v-for": ["error", {
+        "allowUsingIterationVar": true
+      }]
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
