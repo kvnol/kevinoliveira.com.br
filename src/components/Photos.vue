@@ -79,13 +79,13 @@ export default {
 
   &-row
     display: flex
-    margin: 2rem 0
 
 .photos-item
   position: relative
   overflow: hidden
   border-radius: 50%
   display: block
+  margin: 1rem
 
   &:after
     content: ''
