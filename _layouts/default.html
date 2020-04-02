@@ -10,10 +10,21 @@ layout: compress
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{% if page.url == '/' %}{{ site.title }}{% else %}{{ page.title }} - {{ site.title }}{% endif %}</title>
 
+
   <link rel="stylesheet" href="https://use.typekit.net/oii6naz.css">
   <link rel="stylesheet" href="/assets/css/vendor.css">
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/{{page.slug}}.css">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20338334-11"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-20338334-11');
+  </script>
 </head>
 
 <body class="{{ page.slug }}">
