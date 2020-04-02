@@ -1,0 +1,26 @@
+# Site
+title: "Kevin Oliveira | Designer & Front-end"
+description: "Front-end at Din Digital, previously Agência Murilhas. Catholic, musician and designer."
+baseurl: ""
+url: ""
+
+# Build
+markdown: kramdown
+plugins:
+  - jekyll-feed
+sass:
+  sass_dir: assets/_scss
+  style: compressed
+    
+exclude:
+  - Gemfile
+  - node_modules
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - gulpfile.js
+  - package.json
+  - README.md
+  - LICENSE
