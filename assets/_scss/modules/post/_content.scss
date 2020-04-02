@@ -14,18 +14,14 @@
     color: $white;
   }
 
-  h3 {
+  h3,
+  blockquote p {
     font-size: rem(24px);
     line-height: 1.2;
     
     @media (min-width: $tablet-pro) {
       font-size: rem(32px);
     }
-  }
-
-  blockquote p {
-    font-size: rem(32px);
-    line-height: 1.2;
   }
 
   &--intro {
