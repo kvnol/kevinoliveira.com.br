@@ -1,6 +1,10 @@
 .post-header {
   &__title {
-    font-size: rem(48px);
+    font-size: rem(32px);
     line-height: 1.2;
+    
+    @media (min-width: $tablet-pro) {
+      font-size: rem(48px);
+    }
   }
 }
