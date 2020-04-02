@@ -1,9 +1,13 @@
 .post-content {
   p {
     margin: 36px 0;
-    font-size: rem(24px);
-    line-height: rem(36px);
+    font-size: rem(18px);
+    line-height: 1.5;
     color: rgba($white, .8);
+    
+    @media (min-width: $tablet-pro) {
+      font-size: rem(24px);
+    }
   }
 
   strong {
@@ -11,8 +15,12 @@
   }
 
   h3 {
-    font-size: rem(32px);
+    font-size: rem(24px);
     line-height: 1.2;
+    
+    @media (min-width: $tablet-pro) {
+      font-size: rem(32px);
+    }
   }
 
   blockquote p {
