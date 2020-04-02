@@ -1,0 +1,15 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@charset "utf-8";
+
+@import 'base/imports';
+
+@import 'modules/post/all';
+@import 'modules/post/content';
+@import 'modules/post/header';
+
+.post {
+  max-width: rem(720px);
+}

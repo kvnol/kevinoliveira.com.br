@@ -1,10 +1,30 @@
 .post-content {
+  p {
+    margin: 36px 0;
+    font-size: rem(24px);
+    line-height: rem(36px);
+    color: rgba($white, .8);
+  }
+
+  strong {
+    color: $white;
+  }
+
+  h3 {
+    font-size: rem(32px);
+    line-height: 1.2;
+  }
+
+  blockquote p {
+    font-size: rem(32px);
+    line-height: 1.2;
+  }
+
   &--intro {
 
     p {
       margin: 0;
       font-size: rem(24px);
-      color: rgba($white, .8);
       line-height: rem(32px);
 
       @media (min-width: $phablet) {
@@ -33,7 +53,6 @@
     strong {
       font-size: rem(32px);
       font-weight: 700;
-      color: $white;
 
       @media (min-width: $phablet) {
         font-size: rem(40px);

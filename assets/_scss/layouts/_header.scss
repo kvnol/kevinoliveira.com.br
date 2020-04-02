@@ -7,6 +7,10 @@
     text-decoration: none;
     color: $white;
 
+    &:before {
+      content: none;
+    }
+
     img {
       display: block;
       margin-right: rem(24px);

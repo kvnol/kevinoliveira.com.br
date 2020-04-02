@@ -3,19 +3,14 @@
   padding: rem(40px) 0;
 
   &-social {
-    display: flex;
 
     a {
-      display: flex;
-      color: $white;
-      text-decoration: none;
-
       &:not(:last-child) {
         margin-right: rem(24px);
       }
 
-      &:hover {
-        color: $theme;
+      &:before {
+        content: none;
       }
     }
   }
