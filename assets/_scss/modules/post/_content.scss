@@ -1,0 +1,47 @@
+.post-content {
+  &--intro {
+
+    p {
+      margin: 0;
+      font-size: rem(24px);
+      color: rgba($white, .8);
+      line-height: rem(32px);
+
+      @media (min-width: $phablet) {
+        font-size: rem(32px);
+        line-height: rem(40px);
+      }
+
+      @media (min-width: $tablet-pro) {
+        font-size: rem(48px);
+        line-height: rem(56px);
+      }
+
+      &:not(:last-child) {
+        margin-bottom: rem(16px);
+        
+        @media (min-width: $phablet) {
+          margin-bottom: rem(24px);
+        }
+        
+        @media (min-width: $tablet-pro) {
+          margin-bottom: rem(32px);
+        }
+      }
+    }
+
+    strong {
+      font-size: rem(32px);
+      font-weight: 700;
+      color: $white;
+
+      @media (min-width: $phablet) {
+        font-size: rem(40px);
+      }
+
+      @media (min-width: $tablet-pro) {
+        font-size: rem(64px);
+      }
+    }
+  }
+}

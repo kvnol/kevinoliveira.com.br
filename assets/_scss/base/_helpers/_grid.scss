@@ -1,0 +1,9 @@
+.grid {
+  width: calc(100% - 80px);
+  max-width: rem(1664px);
+  margin: 0 auto;
+  
+  @media (min-width: $tablet-pro) {
+    width: calc(100% - 256px);
+  }
+}

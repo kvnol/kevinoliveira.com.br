@@ -1,0 +1,20 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@charset "utf-8";
+
+@import 'base/imports';
+
+@import 'modules/post/all';
+@import 'modules/post/content';
+
+.main {
+  margin-top: rem(56px);
+  margin-bottom: rem(56px);
+  
+  @media (min-width: $tablet-pro) {
+    margin-top: rem(96px);
+    margin-bottom: rem(96px);
+  }
+}

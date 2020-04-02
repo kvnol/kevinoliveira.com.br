@@ -1,0 +1,27 @@
+.header {
+  padding: rem(40px);
+
+  &-logo {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: $white;
+
+    img {
+      display: block;
+      margin-right: rem(24px);
+    }
+  }
+
+  &-title {
+    display: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: rem(14px);
+    letter-spacing: .32rem;
+
+    @media (min-width: $phablet) {
+      display: block;
+    }
+  }
+}
