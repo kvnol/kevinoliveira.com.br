@@ -10,8 +10,13 @@
 @import 'modules/post/content';
 
 .main {
-  margin-top: rem(56px);
-  margin-bottom: rem(56px);
+  margin-top: rem(24px);
+  margin-bottom: rem(24px);
+
+  @media (min-width: $phablet) {
+    margin-top: rem(46px);
+    margin-bottom: rem(46px);
+  }
   
   @media (min-width: $tablet-pro) {
     margin-top: rem(96px);
