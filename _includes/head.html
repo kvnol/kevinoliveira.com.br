@@ -8,7 +8,7 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{page.url | absolute}}">
-  <meta property="og:title" content="{% if page.url == '/' %}{{ site.title }}{% else %}{{ page.title }} - {{ site.title }}{% endif %}">
+  <meta property="og:title" content="{% if page.url == '/' %}{{ page.title }}{% else %}{{ page.title }} - {{ site.title }}{% endif %}">
   <meta property="og:description" content="{{page.description}}">
   <meta property="og:image" content="/assets/img/cover.png">
 
