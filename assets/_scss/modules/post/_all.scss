@@ -1,3 +1,56 @@
 
 .post {
+
+  &-breadcrumb {
+    margin: 0;
+    margin-bottom: rem(16px);
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: inline-block;
+
+      &:not(:last-child) {
+        margin-right: rem(8px);
+        
+        &:after {
+          content: ">";
+          margin-left: rem(8px);
+          font-size: rem(12px);
+          line-height: rem(12px);
+        }
+      }
+    }
+  }
+
+  &-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      &:not(:last-child) {
+        margin-bottom: rem(32px);
+        
+        @media (min-width: $tablet-pro) {
+          margin-bottom: rem(48px);
+        }
+      }
+    }
+  }
+
+  &-card {
+    &__title {
+      margin: 0;
+      margin-bottom: rem(16px);
+      font-size: rem(20px);
+      line-height: rem(24px);
+      color: $white;
+
+      @media (min-width: $tablet-pro) {
+        font-size: rem(32px);
+        line-height: rem(38px);
+      }
+    }
+  }
 }

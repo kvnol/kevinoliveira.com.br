@@ -1,0 +1,25 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: page
+title: Blog
+subtitle: As últimas coisas que coloquei no papel
+---
+
+<section class="post">
+  <header class="page-header">
+    <h1 class="page-header__title">{{ page.title }}</h1>
+  </header>
+
+  <ul class="post-list">
+    {%- for post in site.posts -%}
+      <li class="post-card">
+        <a href="{{post.slug}}">
+          <h3 class="post-card__title">{{ post.title }}</h3>
+          <time class="post-card__date">{{ post.date | date_to_string }}</time>
+        </a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</section>

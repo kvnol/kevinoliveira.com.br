@@ -8,7 +8,7 @@ layout: compress
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>{% if page.url == '/' %}{{ site.title }}{% else %}{{ page.title }} - {{ site.title }}{% endif %}</title>
+  <title>{% if page.url == '/' %}{{ page.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
   <meta name="google-site-verification" content="e8tKK8_XjvMNTjaAiBPkX3bu_03VuuQzNjcHFTMS8mI">
 
   <!-- Favicon -->
@@ -38,9 +38,11 @@ layout: compress
 
 <body class="{{ page.slug }}">
   {% include header.html %}
+
   <main class="main">
     {{ content }}
   </main>
+
   {% include footer.html %}
 </body>
 

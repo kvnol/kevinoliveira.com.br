@@ -8,7 +8,7 @@ layout: compress
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>{% if page.url == '/' %}{{ site.title }}{% else %}{{ page.title }} - {{ site.title }}{% endif %}</title>
+  <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="google-site-verification" content="e8tKK8_XjvMNTjaAiBPkX3bu_03VuuQzNjcHFTMS8mI">
 
   <!-- Favicon -->
@@ -21,9 +21,9 @@ layout: compress
   <meta name="theme-color" content="#000000">
 
   <link rel="stylesheet" href="https://use.typekit.net/oii6naz.css">
-  <link rel="stylesheet" href="/assets/css/vendor.css?{{site.time | date: '%s%N'}}">
-  <link rel="stylesheet" href="/assets/css/main.css?{{site.time | date: '%s%N'}}">
-  <link rel="stylesheet" href="/assets/css/single.css?{{site.time | date: '%s%N'}}">
+  <link rel="stylesheet" href="/assets/css/vendor.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/page.css">
   
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20338334-11"></script>
@@ -36,24 +36,11 @@ layout: compress
   </script>
 </head>
 
-<body class="single">
+<body class="page">
   {% include header.html %}
 
   <main class="main">
-    <section class="post">
-      <ol class="post-breadcrumb">
-        <li><a href="/">Home</a></li>
-        <li><a href="/blog">Blog</a></li>
-      </ol>
-
-      <header class="post-header">
-        <h1 class="post-header__title">{{ page.title }}</h1>
-      </header>
-
-      <div class="post-content">
-        {{ content }}
-      </div>
-    </section>
+    {{ content }}
   </main>
 
   {% include footer.html %}

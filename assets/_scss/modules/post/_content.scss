@@ -1,4 +1,14 @@
 .post-content {
+  
+
+  a {
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   p {
     margin: 36px 0;
     font-size: rem(18px);
@@ -14,10 +24,12 @@
     color: $white;
   }
 
+
   h3,
   blockquote p {
     font-size: rem(24px);
     line-height: 1.2;
+    color: $white;
     
     @media (min-width: $tablet-pro) {
       font-size: rem(32px);
