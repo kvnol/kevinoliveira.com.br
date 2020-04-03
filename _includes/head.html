@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>{% if page.url == '/' %}{{ site.title }}{% else %}{{ page.title }} - {{ site.title }}{% endif %}</title>
+  <title>{% if page.url == '/' %}{{ page.title }}{% else %}{{ page.title }} - {{ site.title }}{% endif %}</title>
   <meta name="google-site-verification" content="e8tKK8_XjvMNTjaAiBPkX3bu_03VuuQzNjcHFTMS8mI">
 
   <!-- Open Graph / Facebook -->
@@ -15,7 +15,7 @@
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="{{page.url | absolute}}">
-  <meta property="twitter:title" content="{% if page.url == '/' %}{{ site.title }}{% else %}{{ page.title }} - {{ site.title }}{% endif %}">
+  <meta property="twitter:title" content="{% if page.url == '/' %}{{ page.title }}{% else %}{{ page.title }} - {{ site.title }}{% endif %}">
   <meta property="twitter:description" content="{{page.description}}">
   <meta property="twitter:image" content="/assets/img/cover.png">
 
