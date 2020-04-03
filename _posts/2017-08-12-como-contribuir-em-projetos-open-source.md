@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Como contribuir com projetos open source sem codar?'
-description: '"Não é só de código que vive o dev, mas também de toda ajuda de bom coração"'
+title: Como contribuir com projetos open source sem codar?
+description: Não é só de código que vive o dev, mas também de toda ajuda de bom coração
 permalink: /:slug/
 ---
 

@@ -1,12 +1,16 @@
 .post-content {
-  
-
   a {
     text-decoration: underline;
 
     &:hover {
       text-decoration: none;
     }
+  }
+
+  img {
+    width: auto;
+    max-width: 100%;
+    display: block;
   }
 
   p {
@@ -17,6 +21,25 @@
     
     @media (min-width: $tablet-pro) {
       font-size: rem(24px);
+    }
+  }
+
+  ul {
+    li {
+      font-size: rem(18px);
+      line-height: 1.5;
+
+      @media (min-width: $tablet-pro) {
+        font-size: rem(24px);
+      }
+
+      &:not(:last-child) {
+        margin-bottom: rem(16px);
+
+        @media (min-width: $tablet-pro) {
+          margin-bottom: rem(24px);
+        }
+      }
     }
   }
 
