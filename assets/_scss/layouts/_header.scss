@@ -1,4 +1,7 @@
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: rem(40px);
 
   &-logo {
@@ -26,6 +29,22 @@
 
     @media (min-width: $phablet) {
       display: block;
+    }
+  }
+
+  &-menu {
+    a {
+      text-transform: uppercase;
+      font-size: rem(16px);
+      font-weight: 700;
+
+      &:hover {
+        color: $white;
+      }
+
+      &:not(:last-child) {
+        margin-right: rem(24px);
+      }
     }
   }
 }
