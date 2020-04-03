@@ -2,7 +2,7 @@
 layout: post
 title: Como não ser um bom front-end
 description: Quer ser um péssimo front-end? Neste post eu elenquei diversos pontos que farão você alcançar esta desgraça.
-permalink: /:slug/
+comments: true
 ---
 
 Nós, desenvolvedores, que estamos cercados por conteúdo sobre tecnologia todos os dias vemos diversas boas dicas de como nós tornarmos melhoras desenvolvedores, boas práticas e como conquistar a atenção da empresa dos sonhos. Não é mesmo?

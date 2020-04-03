@@ -2,7 +2,7 @@
 layout: post
 title: Como contribuir com projetos open source sem codar?
 description: Não é só de código que vive o dev, mas também de toda ajuda de bom coração
-permalink: /:slug/
+comments: true
 ---
 
 Muitas vezes, principalmente quando estamos começando, é difícil conceber ideias ou contribuir com projetos open source já existentes na internet, não é mesmo? Mas saiba que **não é só de código que vive o dev**.

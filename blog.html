@@ -15,7 +15,7 @@ subtitle: As últimas coisas que coloquei no papel
   <ul class="post-list">
     {%- for post in site.posts -%}
       <li class="post-card">
-        <a href="{{post.slug}}">
+        <a href="{{post.url}}">
           <h3 class="post-card__title">{{ post.title }}</h3>
           <time class="post-card__date">{{ post.date | date_to_string }}</time>
         </a>
