@@ -39,4 +39,6 @@ No caso do **design do projeto** tenho dois exemplos meus, onde inciei através 
 
 Da mesma forma que não é só de código que vive o homem, também podemos contribuir fora do GitHub e não viver só de commits escrevendo artigos para a comunidade.
 
-E a [iniciativa Poste mais! da comunidade Front-end Brasil](https://github.com/frontendbr/poste-mais) gera muitos frutos e conteúdo para a comunidade, como este artigo que estou escrevendo com base na issue [#46](https://github.com/frontendbr/poste-mais/issues/46) do [Danilo Vaz](https://medium.com/u/253abe226c47) e dando uns commits aqui no Medium da Open School Brasil.
+E a [iniciativa Poste mais! da comunidade Front-end Brasil](https://github.com/frontendbr/poste-mais) gera muitos frutos e conteúdo para a comunidade, como este artigo que estou escrevendo com base na issue [#46](https://github.com/frontendbr/poste-mais/issues/46) do [Danilo Vaz](https://medium.com/u/253abe226c47) e criando uns posts aqui no blog.
+
+That's all folks!
