@@ -19,7 +19,7 @@ type: page
       {% assign content = post.content | strip_newlines %}
       {%- if post.categories[0] == 'portfolio' -%}
         <li class="post-card">
-          <a href="{% if content == '' %}{{ post.live }}{% else %}{{ post.url }}{% endif %}" {% if content == "" %}target="_blank"{% endif %}>
+          <a href="{% if content == '' %}{{ post.live }}{% else %}{{ post.url }}{% endif %}" {% if content == "" %}target="_blank" rel="noopener"{% endif %}>
             <time class="post-card__date">{{ post.date | date: "%b %Y" }}</time>
             <h3 class="post-card__title">{{ post.title }}</h3>
             <p class="post-card__excerpt">{{ post.excerpt }}</p>
