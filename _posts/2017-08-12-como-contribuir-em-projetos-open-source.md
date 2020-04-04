@@ -29,9 +29,9 @@ Por isso, caso você não saiba como resolver aquele bug que achou testando a ap
 
 ### Abra discussões de como o projeto poderia evoluir
 
-Através das issues você também pode iniciar discussões, como num fórum ([veja o fórum da Open School Brasil](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fopenschoolbr%2Fforum%2Fissues)), de como o projeto evoluir, quais os próximos passos poderiam ser tomados, ideias de novas features, design etc. Isso daria bastante pano para mangas e a comunidade envolvida no projeto a possibilidade e inviabilidade de implementar tais coisas.
+Através das issues você também pode iniciar discussões, como num fórum ([veja o fórum da Open School Brasil](https://github.com/openschoolbr/forum/issues)), de como o projeto evoluir, quais os próximos passos poderiam ser tomados, ideias de novas features, design etc. Isso daria bastante pano para mangas e a comunidade envolvida no projeto a possibilidade e inviabilidade de implementar tais coisas.
 
-No caso do **design do projeto** tenho dois exemplos meus, onde inciei através das issues, discussões para a nova [identidade visual da comunidade Front-end Brasil](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Ffrontendbr%2Fsugestoes%2Fissues%2F20) e a [discussão para a definição da marca Open School Brasil](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fopenschoolbr%2Fforum%2Fissues%2F3). Essas discussões geraram amizades e bons frutos.
+No caso do **design do projeto** tenho dois exemplos meus, onde inciei através das issues, discussões para a nova [identidade visual da comunidade Front-end Brasil](https://github.com/frontendbr/sugestoes/issues/20) e a [discussão para a definição da marca Open School Brasil](https://github.com/openschoolbr/forum/issues/3). Essas discussões geraram amizades e bons frutos.
 
 > “Não é só de código que vive o homem”
 
@@ -39,4 +39,4 @@ No caso do **design do projeto** tenho dois exemplos meus, onde inciei através 
 
 Da mesma forma que não é só de código que vive o homem, também podemos contribuir fora do GitHub e não viver só de commits escrevendo artigos para a comunidade.
 
-E a [iniciativa Poste mais! da comunidade Front-end Brasil](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Ffrontendbr%2Fposte-mais) gera muitos frutos e conteúdo para a comunidade, como este artigo que estou escrevendo com base na issue [#46](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Ffrontendbr%2Fposte-mais%2Fissues%2F46) do [Danilo Vaz](https://medium.com/u/253abe226c47) e dando uns commits aqui no Medium da Open School Brasil.
+E a [iniciativa Poste mais! da comunidade Front-end Brasil](https://github.com/frontendbr/poste-mais) gera muitos frutos e conteúdo para a comunidade, como este artigo que estou escrevendo com base na issue [#46](https://github.com/frontendbr/poste-mais/issues/46) do [Danilo Vaz](https://medium.com/u/253abe226c47) e dando uns commits aqui no Medium da Open School Brasil.
