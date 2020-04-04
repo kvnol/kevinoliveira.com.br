@@ -107,6 +107,7 @@
     &__date {
       white-space: nowrap;
       line-height: rem(28.8px);
+      color: rgba($white, .5);
       
       @media (min-width: $tablet) {
         margin: rem(8px) 0;
