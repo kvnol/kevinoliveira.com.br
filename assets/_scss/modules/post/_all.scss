@@ -26,6 +26,7 @@
 
     li {
       display: inline-block;
+      text-transform: capitalize;
 
       &:not(:last-child) {
         margin-right: rem(8px);

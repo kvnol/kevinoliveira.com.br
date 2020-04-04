@@ -16,7 +16,7 @@ Participo da comunidade front-end há alguns anos, antes mesmo de entrar na áre
 
 Antes que eu arranje mais treta que eu já tenho e vocês venham pra cima de mim igual esse ser aí em cima, quero passar um pano quente aqui dizendo que não é errado ser iniciante, aliás todos já foram e sempre serão em algo na vida — Sempre haverá aquele dia que tomaremos um banho de água fria quando acharmos que somos bons o suficiente em algo — mas deve haver o bom senso entre saber o que difere o “me ajuda” com o “faz pra mim”.
 
-## Copiar e colar código não fará você aprender
+### Copiar e colar código não fará você aprender
 
 É triste pensar que muita gente cola um trecho de código no grupo, depois que alguém resolve, copia e cola na sua aplicação. Mas sinto-lhe dizer, a verdade dói e copiar e colar código não fará você aprender a programar.
 
@@ -28,13 +28,13 @@ Tenho certeza que, com o básico de lógica de programação ou bom-senso, você
 
 > “Oi, galera! Eu queria saber como eu posso ativar uma classe só SE eu clicasse no bot…” — “se”? Eu acho que já ouvi falar disso…
 
-## Você realmente gosta de escrever códigos?
+### Você realmente gosta de escrever códigos?
 
 A primeira coisa que imagino quando vejo alguém jogando um bloco de código imenso num grupo (Não façam isso! Usem o Codepen), é que a pessoa não gosta de programar ou não tem paciência para exercer aquela função que exige paciência e capacidade lógica de resolver problemas.
 
 Não sei vocês, mas a sensação orgasmática de resolver um problema sozinho sem copiar nenhuma linha de código é incrível. Pode ser a coisa mais besta, mas quem nunca resolveu algum problema sozinho e gritou “Aê p%R$@, consegui resolver!”. Eu recomendo a vocês sentirem esse prazer pelo menos uma vez por dia.
 
-## “Ok, Kevin, ok. Você trouxe o problema mas e a solução?”
+### “Ok, Kevin, ok. Você trouxe o problema mas e a solução?”
 
 É claro que eu não poderia só trazer a polêmica e sair correndo (*mas até que eu poderia…*), por isso trago alguns links clichês para vocês consultarem antes de encherem os grupos, que deveriam ser de qualidade, de chorume e pedidos de esmola.
 
