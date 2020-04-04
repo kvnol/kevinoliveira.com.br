@@ -6,7 +6,6 @@ description: ""
 excerpt: "Desenvolvimento da landing page Estância Sports utilizando Pug e Sass."
 categories: ['portfolio']
 tags: ['Front-end']
-comments: true
 type: single
 live: "https://sports.estancia.com.br/"
 permalink: /portfolio/:title/

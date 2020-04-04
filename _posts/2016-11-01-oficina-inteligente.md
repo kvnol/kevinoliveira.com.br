@@ -6,7 +6,6 @@ description: ""
 excerpt: "Desenvolvimento do site da Oficina Inteligente utilizando Jekyll."
 categories: ['portfolio']
 tags: ['Front-end']
-comments: true
 type: single
 live: "https://oficinainteligente.com.br/"
 permalink: /portfolio/:title/

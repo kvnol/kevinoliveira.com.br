@@ -6,7 +6,6 @@ description: ""
 excerpt: "Desenvolvimento do site do Plano de Saúde Santa Casa Mauá utilizando WordPress e Vue.js."
 categories: ['portfolio']
 tags: ['Front-end']
-comments: true
 type: single
 live: "https://prestador.valesaudesempre.com.br/"
 permalink: /portfolio/:title/

@@ -6,7 +6,6 @@ description: ""
 excerpt: "Desenvolvimento do site do Widepower utilizando WordPress."
 categories: ['portfolio']
 tags: ['Front-end']
-comments: true
 type: single
 live: "http://widepower.com.br/"
 permalink: /portfolio/:title/

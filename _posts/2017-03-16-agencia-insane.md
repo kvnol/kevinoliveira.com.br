@@ -6,7 +6,6 @@ description: ""
 excerpt: "Desenvolvimento da página Agência Insane com Pug e Sass."
 categories: ['portfolio']
 tags: ['Front-end']
-comments: true
 type: single
 live: "http://sejainsane.com.br/"
 permalink: /portfolio/:title/
