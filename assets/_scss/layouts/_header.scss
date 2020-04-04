@@ -3,6 +3,15 @@
   align-items: center;
   justify-content: space-between;
   padding: rem(40px);
+  margin-bottom: rem(24px);
+
+  @media (min-width: $phablet) {
+    margin-bottom: rem(32px);
+  }
+  
+  @media (min-width: $tablet-pro) {
+    margin-bottom: rem(48px);
+  }
 
   &-logo {
     display: inline-flex;

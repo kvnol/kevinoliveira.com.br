@@ -8,17 +8,3 @@
 
 @import 'modules/post/all';
 @import 'modules/post/content';
-
-.main {
-  margin-bottom: rem(24px);
-
-  @media (min-width: $phablet) {
-    margin-top: rem(46px);
-    margin-bottom: rem(46px);
-  }
-  
-  @media (min-width: $tablet-pro) {
-    margin-top: rem(96px);
-    margin-bottom: rem(96px);
-  }
-}
