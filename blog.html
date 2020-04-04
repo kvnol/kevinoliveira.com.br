@@ -15,8 +15,8 @@ type: page
   <ul class="post-list">
     {%- for post in site.posts -%}
       {%- if post.categories[0] == 'blog' -%}
-        <li class="post-card">
-          <a href="{{post.url}}">
+        <li>
+          <a class="post-card" href="{{post.url}}">
             <h3 class="post-card__title">{{ post.title }}</h3>
             <time class="post-card__date">{{ post.date | date_to_string }}</time>
           </a>

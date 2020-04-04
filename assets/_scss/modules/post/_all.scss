@@ -59,35 +59,59 @@
 
     li {
       &:not(:last-child) {
-        margin-bottom: rem(40px);
-        
-        @media (min-width: $tablet-pro) {
-          margin-bottom: rem(48px);
-        }
+        margin-bottom: rem(24px);
+        padding-bottom: rem(24px);
+        border-bottom: rem(1px) solid rgba($white, .1);
       }
     }
   }
 
   &-card {
+    display: flex;
+    flex-direction: column;
+    
+    @media (min-width: $tablet) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    &:hover {
+      .post-card__title {
+        color: rgba($white, .5);
+      }
+    }
+
     &__title {
       margin: rem(8px) 0;
-      font-size: rem(20px);
-      line-height: rem(24px);
+      font-size: rem(24px);
+      line-height: rem(28.8px);
       color: $white;
+      transition: .2s all ease;
       
-      @media (min-width: $tablet-pro) {
+      @media (min-width: $tablet) {
         font-size: rem(32px);
-        line-height: rem(38px);
+        line-height: rem(38.4px);
       }
     }
 
     &__excerpt {
       margin-top: 0;
       font-size: rem(18px);
-      line-height: 1.5;
+      line-height: 1.2;
       
-      @media (min-width: $tablet-pro) {
+      @media (min-width: $tablet) {
         font-size: rem(22px);
+      }
+    }
+
+    &__date {
+      white-space: nowrap;
+      line-height: rem(28.8px);
+      
+      @media (min-width: $tablet) {
+        margin: rem(8px) 0;
+        margin-left: rem(48px);
+        line-height: rem(38.4px);
       }
     }
   }

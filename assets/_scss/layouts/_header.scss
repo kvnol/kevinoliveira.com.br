@@ -43,6 +43,7 @@
       text-transform: uppercase;
       font-size: rem(16px);
       font-weight: 700;
+      color: rgba($white, .5);
 
       &:hover {
         color: $white;

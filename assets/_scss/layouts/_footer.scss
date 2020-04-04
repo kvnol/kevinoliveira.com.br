@@ -5,6 +5,12 @@
   &-social {
 
     a {
+      color: rgba($white, .5);
+      
+      &:hover {
+        color: $white;
+      }
+
       &:not(:last-child) {
         margin-right: rem(24px);
       }

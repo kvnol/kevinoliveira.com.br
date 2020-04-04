@@ -1,9 +1,12 @@
 .post-content {
   a {
-    text-decoration: underline;
+    padding: 0 rem(4px);
+    border-bottom: rem(1px) solid $theme;
+    border-radius: rem(2px);
 
     &:hover {
       text-decoration: none;
+      background-color: $theme;
     }
   }
 
