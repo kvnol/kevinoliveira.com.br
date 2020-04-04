@@ -1,0 +1,36 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: page
+title: Portfolio
+subtitle: Últimos trabalhos realizados
+type: page
+---
+
+<section class="post">
+  <header class="page-header">
+    <h1 class="page-header__title">{{ page.title }}</h1>
+    <h2 class="page-header__subtitle">{{ page.subtitle }}</h2>
+  </header>
+
+  <ul class="post-list">
+    {%- for post in site.posts -%}
+      {% assign content = post.content | strip_newlines %}
+      {%- if post.categories[0] == 'portfolio' -%}
+        <li class="post-card">
+          <a href="{% if content == '' %}{{ post.live }}{% else %}{{ post.url }}{% endif %}" {% if content == "" %}target="_blank"{% endif %}>
+            <time class="post-card__date">{{ post.date | date: "%b %Y" }}</time>
+            <h3 class="post-card__title">{{ post.title }}</h3>
+            <p class="post-card__excerpt">{{ post.excerpt }}</p>
+            <div class="post-tags">
+              {%- for tag in post.tags -%}
+              <span>{{tag}}</span>
+              {%- endfor -%}
+            </div>
+          </a>
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</section>

@@ -1,5 +1,22 @@
 
 .post {
+  &-tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: rem(16px);
+    margin: rem(-2px);
+  
+    span {
+      display: block;
+      margin: rem(2px);
+      padding: rem(4px) rem(8px);
+      font-size: rem(12px);
+      font-weight: 600;
+      text-transform: uppercase;
+      background-color: $theme;
+      border-radius: rem(2px);
+    }
+  }
 
   &-breadcrumb {
     margin: 0;
@@ -30,7 +47,7 @@
 
     li {
       &:not(:last-child) {
-        margin-bottom: rem(32px);
+        margin-bottom: rem(40px);
         
         @media (min-width: $tablet-pro) {
           margin-bottom: rem(48px);
@@ -41,15 +58,24 @@
 
   &-card {
     &__title {
-      margin: 0;
-      margin-bottom: rem(16px);
+      margin: rem(8px) 0;
       font-size: rem(20px);
       line-height: rem(24px);
       color: $white;
-
+      
       @media (min-width: $tablet-pro) {
         font-size: rem(32px);
         line-height: rem(38px);
+      }
+    }
+
+    &__excerpt {
+      margin-top: 0;
+      font-size: rem(18px);
+      line-height: 1.5;
+      
+      @media (min-width: $tablet-pro) {
+        font-size: rem(22px);
       }
     }
   }

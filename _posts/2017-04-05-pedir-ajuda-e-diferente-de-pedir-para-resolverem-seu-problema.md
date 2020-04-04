@@ -2,8 +2,10 @@
 layout: post
 title: Pedir ajuda é diferente de pedir para resolverem seu problema
 description: Não é só de código que vive o dev, mas também de toda ajuda de bom coração
+categories: ['blog']
 comments: true
 type: single
+permalink: /blog/:title/
 ---
 
 > Este artigo foi migrado de um post que fiz no [grupo Front-End Brasil lá no Facebook](https://www.facebook.com/groups/frontendbrasil/permalink/1262790657103017/){:target="_blank"}{:rel="noopener"}

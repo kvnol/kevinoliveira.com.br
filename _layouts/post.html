@@ -8,11 +8,17 @@ layout: compress
 <body class="single">
   {% include header.html %}
 
+  <pre>
+    {{ post | debug }}
+  </pre>
+
   <main class="main">
     <article class="post">
-      <ol class="post-breadcrumb">
-        <li><a href="/">Home</a></li>
-        <li><a href="/blog/">Blog</a></li>
+      <ol itemscope itemtype="http://schema.org/BreadcrumbList" class="post-breadcrumb">
+        <li itemprop="itemListElement" itemscope
+        itemtype="http://schema.org/ListItem"><a href="/">Home</a></li>
+        <li itemprop="itemListElement" itemscope
+        itemtype="http://schema.org/ListItem"><a href="/{{page.categories[0]}}">{{page.categories[0]}}</a></li>
       </ol>
 
       <header class="post-header">

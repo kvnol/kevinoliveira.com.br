@@ -1,10 +1,6 @@
 .page {
   &-header {
-    margin-bottom: rem(16px);
-
-    @media (min-width: $tablet-pro) {
-      margin-bottom: rem(32px);
-    }
+    margin-bottom: rem(40px);
     
     &__title {
       margin: 0;
@@ -13,6 +9,18 @@
 
       @media (min-width: $tablet-pro) {
         font-size: rem(48px);
+      }
+    }
+
+    &__subtitle {
+      margin: 0;
+      margin-top: rem(8px);
+      font-size: rem(18px);
+      font-weight: 300;
+      
+      @media (min-width: $tablet-pro) {
+        margin-top: rem(16px);
+        font-size: rem(20px);
       }
     }
   }
