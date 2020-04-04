@@ -30,6 +30,12 @@
     @media (min-width: $phablet) {
       display: block;
     }
+
+    br {
+      @media (min-width: $tablet) {
+        display: none;
+      }
+    }
   }
 
   &-menu {
