@@ -46,6 +46,17 @@
     padding: 0;
     list-style: none;
 
+    &__title {
+      margin: rem(48px) 0 rem(24px);
+      font-size: rem(48px);
+      color: rgba($theme, .5);
+      
+      @media (min-width: $tablet-pro) {
+        margin: rem(64px) 0 rem(32px);
+        font-size: rem(64px);
+      }
+    }
+
     li {
       &:not(:last-child) {
         margin-bottom: rem(40px);
