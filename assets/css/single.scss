@@ -10,8 +10,32 @@
 @import 'modules/post/content';
 @import 'modules/post/header';
 
+@import 'layouts/sidebar';
+
 @import 'pages/page';
 
+.main {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $desktop) {
+    flex-direction: row;
+  }
+}
+
 .post {
+  order: 2;
   max-width: rem(720px);
+
+  @media (min-width: $desktop) {
+    order: 1;
+  }
+}
+
+.sidebar {
+  order: 1;
+
+  @media (min-width: $desktop) {
+    order: 2;
+  }
 }
