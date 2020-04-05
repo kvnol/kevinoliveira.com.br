@@ -10,14 +10,14 @@
   <meta property="og:url" content="{{page.url | absolute}}">
   <meta property="og:title" content="{% if page.url == '/' %}{{ page.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}">
   <meta property="og:description" content="{{page.description}}">
-  <meta property="og:image" content="/assets/img/cover.png">
+  <meta property="og:image" content="/assets/img/covers/{{page.slug}}.png">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="{{page.url | absolute}}">
   <meta property="twitter:title" content="{% if page.url == '/' %}{{ page.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}">
   <meta property="twitter:description" content="{{page.description}}">
-  <meta property="twitter:image" content="/assets/img/cover.png">
+  <meta property="twitter:image" content="/assets/img/covers/{{page.slug}}.png">
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
