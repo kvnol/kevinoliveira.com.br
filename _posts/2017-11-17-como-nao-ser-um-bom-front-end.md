@@ -81,3 +81,5 @@ São bastantes os pontos que tornam você um desenvolvedor front-end ruim. E ess
 Inspirado no post [15 Dicas Infalíveis para Destruir Implacavelmente sua Carreira](https://medium.com/@danielorlean/15-dicas-infal%C3%ADveis-para-destruir-implacavelmente-sua-carreira-7ce04f34a76) do [Daniel Orlean](https://medium.com/u/c0c05f30f30f), usarei a frase:
 
 **O seu "Insucesso" só depende de você!!!**
+
+That's all folks!
