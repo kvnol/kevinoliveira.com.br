@@ -5,6 +5,7 @@ categories: ['blog']
 comments: true
 type: single
 permalink: /blog/:title/
+track: 791511418
 ---
 
 > Este artigo foi migrado de um post que fiz no [grupo Front-End Brasil lá no Facebook](https://www.facebook.com/groups/frontendbrasil/permalink/1262790657103017/){:target="_blank"}{:rel="noopener"}
