@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Pedir ajuda é diferente de pedir para resolverem seu problema
-description: Não é só de código que vive o dev, mas também de toda ajuda de bom coração
 categories: ['blog']
 comments: true
 type: single
