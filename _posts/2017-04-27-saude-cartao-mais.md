@@ -2,8 +2,8 @@
 layout: post
 type: post
 title: Saúde Cartão Mais
-description: ""
-excerpt: "Desenvolvimento da landing page Saúde Cartão Mais da Vale Saúde Sempre com Pug e Sass."
+
+description: "Desenvolvimento da landing page Saúde Cartão Mais da Vale Saúde Sempre com Pug e Sass."
 categories: ['portfolio']
 tags: ['Front-end']
 type: single

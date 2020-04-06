@@ -2,8 +2,8 @@
 layout: post
 type: post
 title: Conferência Nacional da CUT
-description: ""
-excerpt: "Desenvolvimento do site Conferência Nacional da CUT utilizando WordPress."
+
+description: "Desenvolvimento do site Conferência Nacional da CUT utilizando WordPress."
 categories: ['portfolio']
 tags: ['Front-end']
 type: single

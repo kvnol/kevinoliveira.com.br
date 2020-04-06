@@ -29,7 +29,7 @@ type: page
     <li class="post-card">
       <a href="{% if content == '' %}{{ post.live }}{% else %}{{ post.url }}{% endif %}" {% if content == "" %}target="_blank" rel="noopener"{% endif %}>
         <h3 class="post-card__title">{{ post.title }}</h3>
-        <p class="post-card__excerpt">{{ post.excerpt }}</p>
+        <p class="post-card__excerpt">{{ post.description }}</p>
         <div class="post-tags">
           {%- for tag in post.tags -%}
           <span>{{tag}}</span>

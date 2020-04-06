@@ -2,8 +2,8 @@
 layout: post
 type: post
 title: Grupo Anpla
-description: ""
-excerpt: "Desenvolvimento do site do Grupo Anpla utilizando Pug e Sass."
+
+description: "Desenvolvimento do site do Grupo Anpla utilizando Pug e Sass."
 categories: ['portfolio']
 tags: ['Front-end']
 type: single

@@ -2,8 +2,8 @@
 layout: post
 type: post
 title: Estância Pet
-description: ""
-excerpt: "Desenvolvimento da landing page Estância Pet utilizando Pug e Sass."
+
+description: "Desenvolvimento da landing page Estância Pet utilizando Pug e Sass."
 categories: ['portfolio']
 tags: ['Front-end']
 type: single

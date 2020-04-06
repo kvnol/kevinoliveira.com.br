@@ -2,8 +2,8 @@
 layout: post
 type: post
 title: Estância Casamentos
-description: ""
-excerpt: "Desenvolvimento do site Casamentos do Estância Alto da Serra com Pug e Sass."
+
+description: "Desenvolvimento do site Casamentos do Estância Alto da Serra com Pug e Sass."
 categories: ['portfolio']
 tags: ['Front-end']
 type: single
