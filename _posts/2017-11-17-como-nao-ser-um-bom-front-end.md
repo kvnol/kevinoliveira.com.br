@@ -3,6 +3,7 @@ layout: post
 title: Como não ser um bom front-end
 description: Quer ser um péssimo front-end? Neste post eu elenquei diversos pontos que farão você alcançar esta desgraça.
 categories: ['blog']
+tags: ['front-end']
 comments: true
 type: single
 permalink: /blog/:title/

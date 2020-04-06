@@ -4,6 +4,7 @@ title: Como contribuir em projetos open source sem codar?
 description: Não é só de código que vive o dev, mas também de toda ajuda de bom coração
 categories: ['blog']
 comments: true
+tags: ['front-end']
 type: single
 permalink: /blog/:title/
 track: 791187010
