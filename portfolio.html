@@ -2,11 +2,11 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: page
+layout: default
 title: Portfolio
 subtitle: Últimos trabalhos realizados.
-description: "Meus últimos trabalhos como front-end e designer sempre buscando e pensando nas melhores formas e tecnologias para desenvolver projetos."
-type: page
+description: "Últimos trabalhos como front-end e designer sempre buscando e pensando nas melhores formas e tecnologias para desenvolver projetos."
+type: "page"
 ---
 
 <section class="post">
@@ -21,8 +21,10 @@ type: page
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
     {% if forloop.first %}
-    <h2 class="post-list__title" id="{{ this_year }}-ref">{{this_year}}</h2>
-    <ul class="post-list">
+      {%- if post.categories[0] == 'portfolio' -%}
+        <h2 class="post-list__title" id="{{ this_year }}-ref">{{this_year}}</h2>
+        <ul class="post-list">
+      {% endif %}
     {% endif %}
 
     {%- if post.categories[0] == 'portfolio' -%}

@@ -4,6 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{% if page.url == '/' %}{{ page.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
   <meta name="google-site-verification" content="e8tKK8_XjvMNTjaAiBPkX3bu_03VuuQzNjcHFTMS8mI">
+  <link rel="canonical" href="{{ site.url }}{{page.url | absolute}}">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
