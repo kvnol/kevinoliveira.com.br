@@ -2,7 +2,7 @@
 title: "Kevin Oliveira"
 baseurl: ""
 url: "https://kevinoliveira.com.br"
-permalink: /:collection/:title/
+permalink: pretty
 
 collections:
   portfolio:
