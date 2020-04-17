@@ -1,5 +1,6 @@
 const { src, dest, parallel } = require('gulp');
 const concat = require('gulp-concat');
+const minifyCSS = require('gulp-minify-css');
 const babel = require('gulp-babel');
 
 const files = {
@@ -22,6 +23,7 @@ function js() {
 function css() {
   return src(files.cssVendor)
     .pipe(concat('vendor.css'))
+    .pipe(minifyCSS())
     .pipe(dest('assets/css'))
 }
 

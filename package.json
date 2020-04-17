@@ -12,6 +12,7 @@
     "gulp": "^4.0.2",
     "gulp-cli": "^2.2.0",
     "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
     "gulp-uglify": "^3.0.2",
     "normalize.css": "^8.0.1"
   },
