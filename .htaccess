@@ -6,7 +6,8 @@ DirectoryIndex index.html
 RewriteEngine On
 RewriteBase /
 
-RewriteRule ^index\.html$ / [NC,R,L]
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
 
 {% for post in site.posts %}
 {% for link in post.old %}
