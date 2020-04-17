@@ -10,8 +10,6 @@ collections:
 
 # Build
 markdown: kramdown
-plugins:
-  - jekyll-feed
 sass:
   sass_dir: assets/_scss
   style: compressed
