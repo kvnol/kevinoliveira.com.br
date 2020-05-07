@@ -2,12 +2,13 @@
 layout: post
 title: Como contribuir em projetos open source sem codar?
 description: Não é só de código que vive o dev, mas também de toda ajuda de bom coração
-categories: ['blog']
+categories: ["blog"]
 comments: true
-tags: ['front-end']
+tags: ["front-end"]
 type: single
 permalink: /blog/:title/
 track: 791187010
+cover: "como-contribuir-em-projetos-open-source"
 ---
 
 Muitas vezes, principalmente quando estamos começando, é difícil conceber ideias ou contribuir com projetos open source já existentes na internet, não é mesmo? Mas saiba que **não é só de código que vive o dev**.
@@ -20,13 +21,13 @@ O GitHub é o antro de projetos que podem mudar o mundo e não contribuir com is
 
 ### Contribua com as documentações
 
-Sabe aquele mesmo projeto sensacional que você achou? Dê uma lida no ***readme.md*** e repare se o conteúdo está escrito da melhor forma, se o documento está condizente com as funcionalidades, faça revisões de gramática, melhorias na descrição dos links, crie um sumário e veja se o mesmo não necessita de uma tradução.
+Sabe aquele mesmo projeto sensacional que você achou? Dê uma lida no **_readme.md_** e repare se o conteúdo está escrito da melhor forma, se o documento está condizente com as funcionalidades, faça revisões de gramática, melhorias na descrição dos links, crie um sumário e veja se o mesmo não necessita de uma tradução.
 
 No caso da tradução, é fato que saber inglês é fundamental para qualquer ser humano, mas isso não quer dizer que não devemos ter conteúdos em português em projetos open source, temos que manter nosso idioma ativo e vivo.
 
 ### Ache bugs e abra issues
 
-Sou do tipo que ***“me venha com o problema, mas traga também a solução”*** e acho que muitos também pensam assim.
+Sou do tipo que **_“me venha com o problema, mas traga também a solução”_** e acho que muitos também pensam assim.
 
 Por isso, caso você não saiba como resolver aquele bug que achou testando o app, é extremamente importante relatar isso através das issues do projeto detalhando onde e como achou aquele problema e, talvez, como aquilo poderia ser resolvido.
 
