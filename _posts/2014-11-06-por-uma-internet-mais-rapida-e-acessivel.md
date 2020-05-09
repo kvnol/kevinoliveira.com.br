@@ -7,7 +7,6 @@ comments: true
 tags: ["front-end"]
 type: single
 permalink: /blog/:title/
-cover: "internet-rapida"
 ---
 
 Não basta ter bom conteúdo se as pessoas não leem ele, certo? Hoje em dia as pessoas estão lendo em plataformas que não são mais o computador, agora smartphones e tablets estão entre os mais utilizados para leitura e acesso a internet. Por isso deixar seu conteúdo acessível e rápido a quem não acessa sua página em casa, pelo computador, é extremamente importante.
