@@ -1,12 +1,10 @@
 .post-content {
   a {
-    padding: 0 rem(4px);
-    border-bottom: rem(1px) solid $theme;
-    border-radius: rem(2px);
+    color: $theme;
+    text-decoration: underline;
 
     &:hover {
       text-decoration: none;
-      background-color: $theme;
     }
   }
 
@@ -21,7 +19,7 @@
     font-size: rem(18px);
     line-height: 1.5;
     color: rgba($white, .8);
-    
+
     @media (min-width: $tablet-pro) {
       font-size: rem(24px);
     }
@@ -50,13 +48,26 @@
     color: $white;
   }
 
+  .video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
 
   h3,
   blockquote p {
     font-size: rem(24px);
     line-height: 1.2;
     color: $white;
-    
+
     @media (min-width: $tablet-pro) {
       font-size: rem(32px);
     }
@@ -81,11 +92,11 @@
 
       &:not(:last-child) {
         margin-bottom: rem(16px);
-        
+
         @media (min-width: $phablet) {
           margin-bottom: rem(24px);
         }
-        
+
         @media (min-width: $tablet-pro) {
           margin-bottom: rem(32px);
         }
