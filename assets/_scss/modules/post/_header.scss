@@ -8,4 +8,10 @@
       font-size: rem(48px);
     }
   }
+
+  &__date {
+    display: block;
+    opacity: .8;
+    margin-bottom: 8px;
+  }
 }

@@ -2,33 +2,40 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" itemscope
+itemtype="http://schema.org/Blog{% if page.slug != 'home' %}Posting{% endif %}">
 {% include head.html %}
 
 <body class="single">
   {% include header.html %}
 
-  <main class="main">
-    <article class="post">
+  <main class="main" itemprop="main">
+    <article itemid="{{ site.url }}{{page.url | absolute}}" itemscope itemtype="http://schema.org/LiveBlogPosting" class="post">
       <ol itemscope itemtype="http://schema.org/BreadcrumbList"
         class="post-breadcrumb">
         <li itemprop="itemListElement" itemscope
-          itemtype="http://schema.org/ListItem"><a href="/">Home</a></li>
+          itemtype="http://schema.org/ListItem">
+          <meta itemprop="position" content="1" />
+          <a itemprop="item" href="/"><span itemprop="name">Home</span></a>
+        </li>
         <li itemprop="itemListElement" itemscope
-          itemtype="http://schema.org/ListItem"><a
-            href="/{{page.categories[0]}}">{{page.categories[0]}}</a></li>
+          itemtype="http://schema.org/ListItem">
+          <meta itemprop="position" content="2" />
+          <a itemprop="item"
+            href="/{{page.categories[0]}}"><span itemprop="name">{{page.categories[0]}}</span></a>
+          </li>
       </ol>
 
       <header class="post-header">
-        <time class="post-header__date"
-          pubdate>{{ post.date | date_to_string }}</time>
-        <h1 class="post-header__title">{{ page.title }}</h1>
+        <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" content="{{ page.date | date_to_xmlschema }}" class="post-header__date"
+          pubdate>Publicado originalmente no dia {{ page.date | date: "%m/%d/%Y" }}</time>
+        <h1 itemprop="headline" class="post-header__title">{{ page.title }}</h1>
         {%- if page.description -%}
-        <h2 class="post-header__subtitle">{{ page.description }}</h2>
+        <h2 itemprop="description" class="post-header__subtitle">{{ page.description }}</h2>
         {%- endif -%}
       </header>
 
-      <div class="post-content">
+      <div itemprop="articleBody" class="post-content">
         {%- if page.live -%}
         <blockquote>
           <p><a href="{{page.live}}" target="_blank" rel="noopener">Visitar o
@@ -40,23 +47,25 @@ layout: compress
       </div>
 
       {%- if page.comments -%}
-      <div id="disqus_thread"></div>
-      <script>
-        var disqus_config = function () {
-          this.page.url = "{{site.url}}{{page.url}}";
-          this.page.identifier = "{{page.slug}}";
-        };
-        (function () {
-          var d = document,
-            s = d.createElement('script');
-          s.src = 'https://kvnol.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-        })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a
-          href="https://disqus.com/?ref_noscript">comments powered by
-          Disqus.</a></noscript>
+      <div itemprop="comment">
+        <div id="disqus_thread"></div>
+        <script>
+          var disqus_config = function () {
+            this.page.url = "{{site.url}}{{page.url}}";
+            this.page.identifier = "{{page.slug}}";
+          };
+          (function () {
+            var d = document,
+              s = d.createElement('script');
+            s.src = 'https://kvnol.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a
+            href="https://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+      </div>
       {%- endif -%}
     </article>
 
@@ -64,7 +73,7 @@ layout: compress
     <aside class="sidebar">
       <div class="sidebar-block">
         <h4 class="sidebar-title">Ouça na íntegra</h4>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no"
+        <iframe itemprop="audio" width="100%" height="166" scrolling="no" frameborder="no"
           allow="autoplay"
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{page.track}}&color=%23663ab7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </div>
