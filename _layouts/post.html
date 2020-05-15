@@ -3,7 +3,7 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html lang="pt-br" itemscope
-itemtype="http://schema.org/Blog{% if page.slug != 'home' %}Posting{% endif %}">
+itemtype="http://schema.org/BlogPosting">
 {% include head.html %}
 
 <body class="single">
@@ -29,9 +29,9 @@ itemtype="http://schema.org/Blog{% if page.slug != 'home' %}Posting{% endif %}">
       <header class="post-header">
         <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" content="{{ page.date | date_to_xmlschema }}" class="post-header__date"
           pubdate>Publicado originalmente no dia {{ page.date | date: "%m/%d/%Y" }}</time>
-        <h1 itemprop="headline" class="post-header__title">{{ page.title }}</h1>
+        <h2 itemprop="headline" class="post-header__title">{{ page.title }}</h2>
         {%- if page.description -%}
-        <h2 itemprop="description" class="post-header__subtitle">{{ page.description }}</h2>
+        <h3 itemprop="description" class="post-header__subtitle">{{ page.description }}</h3>
         {%- endif -%}
       </header>
 
