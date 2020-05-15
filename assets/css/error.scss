@@ -1,0 +1,67 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+sitemap:
+  exclude: 'yes'
+---
+
+@charset "utf-8";
+
+.error-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    margin: 0;
+  }
+}
+
+.main {
+  text-align: center;
+}
+
+.error-title {
+  margin: 0 auto 1.875rem;
+  font-size: 104px;
+  line-height: .8;
+
+  @media (min-width: 768px) {
+    font-size: 160px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 240px;
+  }
+}
+
+.error-description {
+  font-size: 24px;
+  margin: 0 auto 8px;
+  line-height: 1.2;
+  
+  @media (min-width: 768px) {
+    font-size: 32px;
+  }
+  
+  @media (min-width: 1024px) {
+    font-size: 40px;
+  }
+}
+
+.error-text {
+  line-height: 1.5;
+  margin: 0 auto 3.125rem;
+  font-size: 14px;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+  
+  @media (min-width: 1024px) {
+    font-size: 24px;
+  }
+}
+
+.error-button {
+  font-size: 24px;
+}

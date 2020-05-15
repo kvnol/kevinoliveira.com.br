@@ -1,0 +1,29 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="pt-br" itemscope
+  itemtype="http://schema.org/Blog{% if page.slug != 'home' %}Posting{% endif %}">
+
+{% include head.html %}
+
+<body class="{{ page.type }}">
+  <header class="header error-header">
+    <a href="/" class="header-logo">
+      <img src="/assets/img/logo.svg" alt="KO">
+    </a>
+  </header>
+  <main class="main" itemprop="main">
+    <article class="error-content">
+      <h1 class="error-title">{{ page.title }}</h1>
+      <h2 class="error-description">{{ page.description }}</h2>
+      <p class="error-text">{{ content }}</p>
+      <a href="{{ site.url }}" class="error-button"><span
+          class="button-symbol">←</span> Volte para a home</a>
+    </article>
+  </main>
+  
+  {% include footer.html %}
+</body>
+
+</html>
