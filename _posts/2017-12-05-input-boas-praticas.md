@@ -3,7 +3,7 @@ layout: post
 type: single
 title: "Boas práticas para inputs de texto"
 comments: true
-description: "Inputs de texto são componentes fundamentais na interação do usuário com a interface, por isso é importante construírmos da melhor forma."
+description: "Inputs de texto são componentes fundamentais na interação do usuário com a interface, por isso é importante construirmos da melhor forma."
 categories: ["blog"]
 tags: ['HTML', 'CSS', 'UI Design']
 permalink: /blog/:title/
