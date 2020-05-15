@@ -5,7 +5,7 @@ title: Conferência Nacional da CUT
 
 description: "Desenvolvimento do site Conferência Nacional da CUT utilizando WordPress."
 categories: ['portfolio']
-tags: ['Front-end']
+tags: ['Front-end', 'WordPress']
 type: single
 live: "https://conferencianacional.cut.org.br/"
 permalink: /portfolio/:title/

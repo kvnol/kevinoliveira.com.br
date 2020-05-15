@@ -5,7 +5,7 @@ title: Widepower
 
 description: "Desenvolvimento do site do Widepower utilizando WordPress."
 categories: ['portfolio']
-tags: ['Front-end']
+tags: ['Front-end', 'WordPress']
 type: single
 live: "http://widepower.com.br/"
 permalink: /portfolio/:title/
