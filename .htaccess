@@ -11,3 +11,5 @@ RewriteBase /
 RewriteRule ^{{ link }} {{ post.permalink }} [R=301,L]
 {% endfor %}
 {% endfor %}
+
+redirect 301 https://kevinoliveira.com.br/como-contribuir-em-projetos-open-source/ https://kevinoliveira.com.br/blog/como-contribuir-em-projetos-open-source/
