@@ -13,12 +13,10 @@
     font-size: rem(24px);
     line-height: 1.2;
     font-weight: 300;
-    opacity: .5;
+    opacity: .8;
   }
 
   &__date {
-    display: block;
-    opacity: .8;
-    margin-bottom: 8px;
+    display: none;
   }
 }
