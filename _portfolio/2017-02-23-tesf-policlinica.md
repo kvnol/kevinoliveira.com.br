@@ -2,9 +2,7 @@
 layout: post
 type: post
 title: Tesf Policlínica
-
 description: "Desenvolvimento do site da Tesf Policlínica utilizando Jekyll."
-categories: ['portfolio']
 tags: ['Front-end']
 type: single
 live: "http://tesfpoliclinica.com.br/"
