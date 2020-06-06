@@ -1,29 +1,26 @@
-# Site
 title: "Kevin Oliveira"
-baseurl: ""
 url: "https://kevinoliveira.com.br"
-permalink: pretty
 
 collections:
   portfolio:
     output: true
     sort_by: date
 
-# Build
-markdown: kramdown
 sass:
-  sass_dir: assets/_scss
-  style: compressed
-    
+  load_paths: 
+    - src/scss
+    - node_modules
+
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - Gemfile
-  - node_modules
   - Gemfile.lock
+  - node_modules/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - gulpfile.js
-  - package.json
-  - README.md
+  - src/
   - LICENSE
