@@ -67,7 +67,7 @@ Programar de graça é um absurdo, não é mesmo? **_Tantos anos investindo na m
 
 Tudo bem que eu utilizo Linux, faço back-end com PHP e uso Atom que são programas open source, mas **_eu não programo de graça!_**
 
-E mesmo que meu projeto open source possa me trazer visibilidade no mercado e entrar numa grande empresa, [open source é só para otários](/como-contribuir-em-projetos-open-source/).
+E mesmo que meu projeto open source possa me trazer visibilidade no mercado e entrar numa grande empresa, [open source é só para otários](/blog/como-contribuir-em-projetos-open-source/).
 
 ### 9. Foque nos frameworks, saber o básico é para os fracos
 
