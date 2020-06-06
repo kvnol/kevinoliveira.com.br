@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Como não ser um bom front-end
-description: Quer ser um péssimo front-end? Neste post eu elenquei diversos pontos que farão você alcançar esta desgraça.
+title: 10 Dicas Infalíveis para Destruir sua carreira como Front-end
+description: Quer ser um péssimo front-end? Neste post eu elenquei diversos pontos que farão você alcançar esta desgraça, você vai ficar puto com a décima!
 categories: ["blog"]
 tags: ["front-end"]
 comments: true
@@ -75,6 +75,14 @@ E mesmo que meu projeto open source possa me trazer visibilidade no mercado e en
 
 Como não é programação, CSS é coisa para quem é júnior, um **_bom front-end precisa saber de React com flux, redux, mastrux…_**
 
+### 10. Não ajude a comunidade a crescer
+
+Sabe aquele seu amigo/amiga que está começando a desenvolver, dando os primeiros passos como dev? Então, para que ajudar eles? Ele só vai ser um concorrente seu, não é mesmo? Até porque quando você começou ninguém te ajudou, você é autodidata demais, nunca entrou num StackOverflow, nunca abriu um tópico num fórum com dúvidas, nunca olhou a documentação de algo na MDN (até porque a MDN se escreve sozinha). Logo, se ninguém nunca te ajudou, não tem por que ajudar os outros, né?
+
+Se quer destruir sua carreira como front-end é uma ótima dica também, [complementando a dica #4](#4-não-fale-sobre-o-que-vocêsabe), não apontar o caminho das pedras, não indicar livros nos quais você teve facilidade em aprender, não indicar vídeos nos quais as dificuldades da profissão cairam por terra, não indicar cursos que você teve outro pensamento e descobriu novas formas de fazer as coisas.
+
+Acho que esse é o caminho certo, faça isso mesmo.
+
 > **E está constatado**: seguindo duas ou três itens dessa lista você já será considerado um developer ruim, por isso persista e não desista!
 
 São bastantes os pontos que tornam você um desenvolvedor front-end ruim. E essa lista pode, e irá, aumentar!
@@ -82,5 +90,3 @@ São bastantes os pontos que tornam você um desenvolvedor front-end ruim. E ess
 Inspirado no post [15 Dicas Infalíveis para Destruir Implacavelmente sua Carreira](https://medium.com/@danielorlean/15-dicas-infal%C3%ADveis-para-destruir-implacavelmente-sua-carreira-7ce04f34a76) do [Daniel Orlean](https://medium.com/u/c0c05f30f30f), usarei a frase:
 
 **O seu "Insucesso" só depende de você!!!**
-
-That's all folks!
