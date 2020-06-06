@@ -1,8 +1,8 @@
 .post-footer {
   &__share {
     position: fixed;
-    right: rem(48px);
-    bottom: rem(48px); 
+    right: rem(32px);
+    bottom: rem(32px); 
     @extend .reset-button;
     width: rem(48px);
     height: rem(48px);
@@ -10,6 +10,11 @@
     background-color: $theme;
     color: $white;
     transition: .2s all ease;
+
+    @media (min-width: $tablet) {
+      right: rem(48px);
+      bottom: rem(48px); 
+    }
     
     &:hover {
       background-color: lighten($theme, 20%);

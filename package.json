@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/webpack --watch | bundle exec jekyll serve --livereload --incremental",
-    "build": "./node_modules/.bin/webpack | bundle exec jekyll build"
+    "build": "./node_modules/.bin/webpack --build | bundle exec jekyll build"
   },
   "author": "",
   "license": "ISC",
