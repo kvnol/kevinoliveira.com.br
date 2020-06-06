@@ -46,6 +46,12 @@ itemtype="http://schema.org/BlogPosting">
         {{ content }}
       </div>
 
+      <footer class="post-footer">
+        <button data-open="share" class="post-footer__share">
+          <i class="uil uil-share-alt"></i>
+        </button>
+      </footer>
+
       {%- if page.comments -%}
       <div itemprop="comment">
         <div id="disqus_thread"></div>
@@ -67,6 +73,7 @@ itemtype="http://schema.org/BlogPosting">
             Disqus.</a></noscript>
       </div>
       {%- endif -%}
+
     </article>
 
     {%- if page.track -%}
@@ -81,8 +88,12 @@ itemtype="http://schema.org/BlogPosting">
     {%- endif -%}
   </main>
 
+  {% include components/modals/share.html %}
   {% include footer.html %}
   <script id="dsq-count-scr" src="//kvnol.disqus.com/count.js" async></script>
+
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/single.js"></script>
 </body>
 
 </html>

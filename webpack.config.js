@@ -4,7 +4,8 @@ module.exports = {
   mode: "production",
   watch: true,
   entry: {
-    main: path.join(__dirname, "src/js", "main")
+    main: path.join(__dirname, "src/js", "main"),
+    single: path.join(__dirname, "src/js", "single")
   },
   output: {
     filename: "[name].js",

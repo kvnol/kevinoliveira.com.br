@@ -1,0 +1,39 @@
+<section class="modal modal-share" data-modal="share">
+  <div class="modal-shadow" data-open="share"></div>
+
+  <div class="modal-content">
+    <header class="modal-header">
+      <h4 class="modal-header__title"><i class="uil uil-share-alt"></i> Compartilhe</h4>
+    </header>
+
+    <nav class="share">
+      <ul class="share-social">
+        <li>
+          <a href="https://twitter.com/intent/tweet?text={{ page.title }} {{ site.url }}{{ page.url }} via @kvnol" target="_blank" title="Compartilhe no Twitter">
+            <i class="uil uil-twitter"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{ page.url }}" target="_blank" title="Compartilhe no Facebook">
+            <i class="uil uil-facebook"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source=LinkedIn
+          " target="_blank" title="Compartilhe no LinkedIn">
+            <i class="uil uil-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+
+      <div class="share-url">
+        <input id="url" type="text" value="{{ site.url }}{{ page.url }}" readonly class="share-url__input">
+        <button data-clipboard-target="#url" class="share-url__button">
+          <i class="uil uil-copy"></i>
+        </button>
+      </div>
+    </nav>
+  </div>
+</section>
