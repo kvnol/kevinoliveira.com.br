@@ -47,6 +47,21 @@ itemtype="http://schema.org/BlogPosting">
       </div>
 
       <footer class="post-footer">
+        <nav class="post-navigation">
+          {% if page.previous.url %}
+            <a class="post-navigation__link post-navigation__prev" href="{{page.previous.url}}" rel="prev">
+              <span>{{page.previous.title}}</span>
+              <i class="uil uil-angle-left-b"></i>
+            </a>
+          {% endif %}
+          {% if page.next.url %}
+            <a class="post-navigation__link post-navigation__next" href="{{page.next.url}}" rel="next">
+              <i class="uil uil-angle-right-b"></i>
+              <span>{{page.next.title}}</span>
+            </a>
+          {% endif %}
+        </nav>
+
         <button data-open="share" class="post-footer__share">
           <i class="uil uil-share-alt"></i>
         </button>
