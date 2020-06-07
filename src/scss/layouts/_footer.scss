@@ -1,23 +1,74 @@
 .footer {
   @extend .grid;
+  display: flex;
+  flex-direction: column;
+  margin-top: rem(48px);
   padding: rem(40px) 0;
+  color: rgba($white, .5);
+  
+  @media (min-width: $tablet) {
+    flex-direction: row;
+  }
+  
+  &-copy {
+    line-height: 1.5;
 
+    @media (min-width: $tablet) {
+      margin: 0;
+      margin-right: rem(48px); 
+    }
+  }
+  
   &-social {
+    display: flex;
 
     a {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: column;
+      overflow: hidden;
+      width: rem(32px);
+      height: rem(32px);
       color: rgba($white, .5);
+      transition: .3s all ease;
       
       &:hover {
         color: $white;
-      }
+        
+        span {
+          margin-top: rem(-30px);
+        }
 
+        &.twitter {
+          color: #1da1f2;
+        }
+        
+        &.dribbble {
+          color: #ea4c89;
+        }
+
+        &.linkedin {
+          color: #0077b5;
+        }
+      }
+      
       &:not(:last-child) {
         margin-right: rem(24px);
       }
-
+      
       &:before {
         content: none;
       }
+    }
+    
+    span {
+      padding: rem(5px);
+      transition: .3s all ease;
+    }
+
+    i {
+      font-size: rem(24px);
     }
   }
 }
