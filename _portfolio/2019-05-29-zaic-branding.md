@@ -5,6 +5,6 @@ title: Zaic Branding
 description: "Desenvolvimento do site Zaic Branding utilizando WordPress e Vue.js."
 tags: ['Front-end', 'WordPress', 'Vue']
 type: single
-live: "https://nutricionista.valesaudesempre.com.br/"
+live: "https://zaic.com.br/"
 permalink: /portfolio/:title/
 ---
