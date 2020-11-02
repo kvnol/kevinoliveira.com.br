@@ -4,21 +4,21 @@
   flex-direction: column;
   margin-top: rem(48px);
   padding: rem(40px) 0;
-  color: rgba($white, .5);
-  
+  color: rgba($white, 0.5);
+
   @media (min-width: $tablet) {
     flex-direction: row;
   }
-  
+
   &-copy {
     line-height: 1.5;
 
     @media (min-width: $tablet) {
       margin: 0;
-      margin-right: rem(48px); 
+      margin-right: rem(48px);
     }
   }
-  
+
   &-social {
     display: flex;
 
@@ -30,12 +30,12 @@
       overflow: hidden;
       width: rem(32px);
       height: rem(32px);
-      color: rgba($white, .5);
-      transition: .3s all ease;
-      
+      color: rgba($white, 0.5);
+      transition: 0.3s all ease;
+
       &:hover {
         color: $white;
-        
+
         span {
           margin-top: rem(-30px);
         }
@@ -43,7 +43,20 @@
         &.twitter {
           color: #1da1f2;
         }
-        
+
+        &.instagram {
+          background: radial-gradient(
+            circle at 33% 100%,
+            #fed373 4%,
+            #f15245 30%,
+            #d92e7f 62%,
+            #9b36b7 85%,
+            #515ecf
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
         &.dribbble {
           color: #ea4c89;
         }
@@ -52,23 +65,23 @@
           color: #0077b5;
         }
       }
-      
+
       &:not(:last-child) {
         margin-right: rem(16px);
-        
+
         @media (min-width: $phablet) {
           margin-right: rem(24px);
         }
       }
-      
+
       &:before {
         content: none;
       }
     }
-    
+
     span {
       padding: rem(5px);
-      transition: .3s all ease;
+      transition: 0.3s all ease;
     }
 
     i {

@@ -1,12 +1,12 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 sitemap:
-  exclude: 'yes'
+  exclude: "yes"
 ---
 
 @charset "utf-8";
 
-@import 'base/imports';
+@import "base/imports";
 
-@import 'modules/post/all';
-@import 'modules/post/content';
+@import "modules/post/all";
+@import "modules/post/content";
