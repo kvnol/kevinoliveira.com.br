@@ -1,26 +1,32 @@
 .footer {
   @extend .grid;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   margin-top: rem(48px);
   padding: rem(40px) 0;
   color: rgba($white, 0.5);
 
-  @media (min-width: $tablet) {
+  @media (min-width: $desktop) {
     flex-direction: row;
   }
 
-  &-copy {
-    line-height: 1.5;
+  > *:not(:last-child) {
+    margin-bottom: rem(16px);
 
-    @media (min-width: $tablet) {
-      margin: 0;
+    @media (min-width: $desktop) {
       margin-right: rem(48px);
     }
   }
 
+  &-copy {
+    line-height: rem(32px);
+    margin: 0;
+  }
+
   &-social {
     display: flex;
+    flex: 1;
 
     a {
       display: flex;
@@ -28,7 +34,7 @@
       justify-content: flex-start;
       flex-direction: column;
       overflow: hidden;
-      width: rem(32px);
+      // width: rem(32px);
       height: rem(32px);
       color: rgba($white, 0.5);
       transition: 0.3s all ease;
@@ -86,6 +92,31 @@
 
     i {
       font-size: rem(24px);
+    }
+  }
+
+  &-playing {
+    a {
+      display: flex;
+      align-items: center;
+      color: #1db954;
+    }
+
+    svg {
+      min-width: rem(24px);
+      min-height: rem(24px);
+      display: inline-block;
+      margin-right: rem(8px);
+      vertical-align: bottom;
+    }
+
+    p {
+      margin: 0;
+      font-size: rem(14px);
+
+      @media (min-width: $tablet) {
+        font-size: rem(16px);
+      }
     }
   }
 }

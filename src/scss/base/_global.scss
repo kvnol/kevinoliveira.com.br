@@ -1,4 +1,4 @@
-@import './_fonts/all';
+@import "./_fonts/all";
 
 * {
   box-sizing: border-box;
@@ -33,7 +33,12 @@ a {
   position: relative;
   color: $white;
   text-decoration: none;
-  transition: .2s all ease;
+  transition: 0.2s all ease;
+}
+
+.uil::before {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 .hide {
