@@ -7,19 +7,12 @@ const spotify = () => {
   const $artist = document.querySelector('[data-spotify="artist"]');
 
   return spotifyService
-    .then(response => {
-      var contentType = response.headers.get("content-type");
-      if(contentType && contentType.indexOf("application/json") !== -1) {
-        return response.json().then(function(json) {
-          $song.innerHTML = json.item.name;
-          $artist.innerHTML = json.item.artists[0].name;
-        });
-      } else {
-        $wrapper.classList.add('hide')
-      }
+    .then(res => {
+      $wrapper.classList.remove('hide');
+      $song.innerHTML = res.data.item.name;
+      $artist.innerHTML = res.data.item.artists[0].name;
     })
     .catch(err => {
-      console.log(err);
       $wrapper.classList.add('hide')
     });
 };

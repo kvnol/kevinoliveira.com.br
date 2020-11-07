@@ -1,10 +1,16 @@
+import axios from 'axios';
+
 const SpotifyService = () => {
-  return fetch('https://api.spotify.com/v1/me/player/currently-playing?market=BR', {
-    headers: new Headers({
+  const acessToken = 'BQBNU21Y9CPJdgqFxL4OVKXOyr_m-ZfZjRY0BQO4xd5QXxqqevHNjlAWv8z84bAKTD-PBQwc4rJFdyHg-H2cbEeX4uXaTHvU72WptK1nSUuzyy8-qLtprhoVrpzbsxdijs3-QSYb7wV0xBPIt4jIOzqgpHqmUsyaY9qLQUAzxbc';
+
+  return axios({
+    url: 'https://api.spotify.com/v1/me/player/currently-playing?market=BR',
+    method: 'GET',
+    headers: {
       "Accept": "application/json",
       "Content-Type": "application/json",
-      "Authorization": "Bearer BQBzNKVOISbuPuaU9ZoOiJp4Ms8n5ponaivmubY6PYP3JY175Si2c3m5X2jDCbB5jJR_iEudHdbLlzf6T5dHlI6Gko_yEnoNIYbPkqFMFLNwR1Ke2yPhKvY4IGQ2xzSBQ_H1gXc4tGJL32PDqDHToUdnzT-MBK2Tw5aq-o-LNyc",
-    })
+      "Authorization": `Bearer ${acessToken}`,
+    }
   });
 };
 
