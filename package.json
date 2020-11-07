@@ -7,6 +7,9 @@
     "start": "./node_modules/.bin/webpack --watch | bundle exec jekyll serve --livereload --incremental",
     "build": "./node_modules/.bin/webpack --build | bundle exec jekyll build"
   },
+  "engines": {
+    "node": "14.1.0"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -17,6 +20,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
+    "axios": "^0.21.0",
     "clipboard": "^2.0.6"
   }
 }
