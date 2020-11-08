@@ -42,9 +42,10 @@ a {
 }
 
 .hide {
-  color: transparent;
-  overflow: hidden;
-  width: 0;
-  height: 0;
-  display: block;
+  color: transparent !important;
+  overflow: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+  display: block !important;
+  margin: 0 !important;
 }

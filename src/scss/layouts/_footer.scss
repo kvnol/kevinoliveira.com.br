@@ -106,12 +106,12 @@
       min-width: rem(24px);
       min-height: rem(24px);
       display: inline-block;
-      margin-right: rem(8px);
       vertical-align: bottom;
     }
 
     p {
       margin: 0;
+      margin-left: rem(8px);
       font-size: rem(14px);
 
       @media (min-width: $tablet) {
