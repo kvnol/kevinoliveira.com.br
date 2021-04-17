@@ -17,15 +17,13 @@ permalink: /blog/
   </header>
 
   <ul class="post-list">
-    {%- for post in site.posts -%}
-      {%- if post.categories[0] == 'blog' -%}
-        <li>
-          <a class="post-card" href="{{post.url}}">
-            <h4 class="post-card__title">{{ post.title }}</h4>
-            <time class="post-card__date">{{ post.date | date_to_string }}</time>
-          </a>
-        </li>
-      {%- endif -%}
-    {%- endfor -%}
+    {%- for post in site.posts -%} {%- if post.categories[0] == 'blog' -%}
+    <li>
+      <a class="post-card" href="{{post.url}}">
+        <h4 class="post-card__title">{{ post.title }}</h4>
+        <time class="post-card__date">{{ post.date | date_to_string }}</time>
+      </a>
+    </li>
+    {%- endif -%} {%- endfor -%}
   </ul>
 </section>
