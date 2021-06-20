@@ -14,3 +14,5 @@ Como todos sabem meu amor pela música é quase um vício e por muitos amigos so
 Este projeto possui atualmente uma página no [Instagram](https://instagram.com/bandas1album), [Facebook](https://facebook.com/bandas1album) e um [portal sendo desenvolvido diariamente](https://bandas1album.com.br).
 
 Todo o conteúdo está sendo escrito por mim, buscando nas mais diversas redes de música espalhadas pela internet.
+
+**Atualização**: O projeto está sendo reescrito utilizando uma nova stack: Angular e WordPress API, através de [lives na Twitch](https://twitch.tv/kvnol) e todos os [repositórios estão abertos na organização do Github](https://github.com/bandas1album), abra sua issue e mande seu PR.
