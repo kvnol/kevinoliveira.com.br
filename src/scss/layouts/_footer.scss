@@ -95,13 +95,22 @@
     }
   }
 
-  &-playing {
+  &-apis {
+    display: flex;
     padding: rem(4px) 0;
 
     a {
       display: flex;
       align-items: center;
-      color: #1db954;
+
+      &:not(:last-child) {
+        margin-bottom: rem(8px);
+
+        @media (min-width: $tablet) {
+          margin-bottom: 0;
+          margin-right: rem(16px);
+        }
+      }
     }
 
     svg {
