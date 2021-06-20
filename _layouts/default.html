@@ -1,18 +1,17 @@
 ---
 layout: compress
 ---
+
 <!DOCTYPE html>
 <html lang="pt-br">
-{% include head.html %}
-<body class="{{ page.type }}">
-  {% include header.html %}
+  {% include head.html %}
+  <body class="{{ page.type }}">
+    {% include header.html %}
 
-  <main class="main">
-    {{ content }}
-  </main>
+    <main class="main">{{ content }}</main>
 
-  {% include footer.html %}
+    {% include footer.html %}
 
-  <script src="/assets/js/main.js"></script>
-</body>
+    <script src="/assets/js/main.js"></script>
+  </body>
 </html>

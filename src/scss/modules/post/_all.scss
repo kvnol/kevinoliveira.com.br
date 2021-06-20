@@ -1,11 +1,10 @@
-
 .post {
   &-tags {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: rem(16px);
     margin: rem(-2px);
-  
+
     span {
       display: block;
       margin: rem(2px);
@@ -30,7 +29,7 @@
 
       &:not(:last-child) {
         margin-right: rem(8px);
-        
+
         &:after {
           content: ">";
           margin-left: rem(8px);
@@ -47,10 +46,14 @@
     list-style: none;
 
     &__title {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background-color: $black;
       margin: rem(48px) 0 rem(24px);
       font-size: rem(48px);
-      color: rgba($theme, .5);
-      
+      color: rgba($theme, 0.5);
+
       @media (min-width: $tablet-pro) {
         margin: rem(64px) 0 rem(32px);
         font-size: rem(64px);
@@ -61,7 +64,7 @@
       &:not(:last-child) {
         margin-bottom: rem(24px);
         padding-bottom: rem(24px);
-        border-bottom: rem(1px) solid rgba($white, .1);
+        border-bottom: rem(1px) solid rgba($white, 0.1);
       }
     }
   }
@@ -69,7 +72,7 @@
   &-card {
     display: flex;
     flex-direction: column;
-    
+
     @media (min-width: $tablet) {
       flex-direction: row;
       justify-content: space-between;
@@ -77,7 +80,7 @@
 
     &:hover {
       .post-card__title {
-        color: rgba($white, .5);
+        color: rgba($white, 0.5);
       }
     }
 
@@ -86,8 +89,8 @@
       font-size: rem(24px);
       line-height: rem(28.8px);
       color: $white;
-      transition: .2s all ease;
-      
+      transition: 0.2s all ease;
+
       @media (min-width: $tablet) {
         font-size: rem(32px);
         line-height: rem(38.4px);
@@ -98,7 +101,7 @@
       margin-top: 0;
       font-size: rem(18px);
       line-height: 1.2;
-      
+
       @media (min-width: $tablet) {
         font-size: rem(22px);
       }
@@ -107,8 +110,8 @@
     &__date {
       white-space: nowrap;
       line-height: rem(28.8px);
-      color: rgba($white, .5);
-      
+      color: rgba($white, 0.5);
+
       @media (min-width: $tablet) {
         margin: rem(8px) 0;
         margin-left: rem(48px);
