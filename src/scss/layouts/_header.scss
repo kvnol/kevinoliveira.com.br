@@ -8,7 +8,7 @@
   @media (min-width: $phablet) {
     margin-bottom: rem(32px);
   }
-  
+
   @media (min-width: $tablet-pro) {
     margin-bottom: rem(48px);
   }
@@ -34,7 +34,7 @@
     font-weight: 600;
     text-transform: uppercase;
     font-size: rem(14px);
-    letter-spacing: .32rem;
+    letter-spacing: 0.32rem;
 
     @media (min-width: $phablet) {
       display: block;
@@ -48,11 +48,14 @@
   }
 
   &-menu {
+    display: flex;
+    align-items: center;
+
     a {
       text-transform: uppercase;
       font-size: rem(16px);
       font-weight: 700;
-      color: rgba($white, .5);
+      color: rgba($white, 0.5);
 
       &:hover {
         color: $white;
