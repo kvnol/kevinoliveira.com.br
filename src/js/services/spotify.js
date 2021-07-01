@@ -1,17 +1,38 @@
-import axios from 'axios';
+import axios from "axios";
+import { environment } from "../../../environments/environment";
 
-const SpotifyService = () => {
-  const acessToken = 'BQBNU21Y9CPJdgqFxL4OVKXOyr_m-ZfZjRY0BQO4xd5QXxqqevHNjlAWv8z84bAKTD-PBQwc4rJFdyHg-H2cbEeX4uXaTHvU72WptK1nSUuzyy8-qLtprhoVrpzbsxdijs3-QSYb7wV0xBPIt4jIOzqgpHqmUsyaY9qLQUAzxbc';
+export const getAuth = () => {
+  const clientId = environment.spotify_client_id;
+  const clientSecret = environment.spotify_client_secret;
 
-  return axios({
-    url: 'https://api.spotify.com/v1/me/player/currently-playing?market=BR',
-    method: 'GET',
+  axios({
+    url: "https://accounts.spotify.com/authorize",
+    method: "get",
+    params: {
+      client_id: clientId,
+      response_type: "code",
+      redirect_uri: "http://127.0.0.1:4000/callback",
+    },
     headers: {
-      "Accept": "application/json",
-      "Content-Type": "application/json",
-      "Authorization": `Bearer ${acessToken}`,
-    }
-  });
+      Accept: "application/json",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH",
+    },
+  })
+    .then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error) {});
 };
 
-export default SpotifyService;
+export const getNowPlaying = (accessToken) => {
+  return axios({
+    url: "https://api.spotify.com/v1/me/player/currently-playing?market=BR",
+    method: "GET",
+    headers: {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${accessToken}`,
+    },
+  });
+};
