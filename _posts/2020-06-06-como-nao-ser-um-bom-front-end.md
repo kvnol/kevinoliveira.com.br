@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 10 Dicas Infalíveis para Destruir sua carreira como Front-end
-description: Quer ser um péssimo front-end? Neste post eu elenquei diversos pontos que farão você alcançar esta desgraça, você vai se morder por dentro com a décima!
+title: Como NÃO ser um bom front-end
+description: Quer ser um péssimo front-end? Neste post eu elenquei diversos pontos que farão você alcançar esta desgraça na sua carreira.
 categories: ["blog"]
 tags: ["front-end"]
 comments: true
