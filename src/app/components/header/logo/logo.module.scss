@@ -26,44 +26,11 @@
     height: 72px;
   }
 
-  &::after {
-    content: attr(aria-label);
-    position: absolute;
-    top: 50%;
-    right: -120px;
-    transform: translateY(-50%) translateX(-32px);
-    padding: 4px 12px;
-    border-radius: 24px;
-    white-space: nowrap;
-    background-color: var(--color-secondary);
-    color: var(--color-primary);
-    font-size: 12px;
-    font-weight: 600;
-    transition: 0.6s;
-    opacity: 0;
-    pointer-events: none;
-
-    @media (min-width: 768px) {
-      font-size: 14px;
-    }
-
-    @media (min-width: 1280px) {
-      font-size: 16px;
-    }
-  }
-
   &:hover {
+    transform: scale(1.1);
+
     .flipper {
       transform: rotateY(180deg);
-    }
-
-    .circle {
-      border-color: var(--color-secondary);
-    }
-
-    &::after {
-      opacity: 1;
-      transform: translateY(-50%) translateX(0);
     }
   }
 }
@@ -138,5 +105,9 @@
 
   @media (min-width: 1280px) {
     height: 60px;
+  }
+
+  @media (prefers-color-scheme: light) {
+    mix-blend-mode: exclusion;
   }
 }
