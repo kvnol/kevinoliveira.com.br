@@ -47,13 +47,39 @@ body {
   font-weight: 300;
 }
 
-main {
-  flex: 1;
+h1 {
+  font-size: 32px;
+  line-height: 120%;
+
+  @media (min-width: 768px) {
+    font-size: 40px;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 48px;
+  }
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 120%;
+
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 28px;
+  }
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+main {
+  flex: 1;
 }
 
 @media (prefers-color-scheme: light) {

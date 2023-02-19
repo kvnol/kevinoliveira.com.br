@@ -1,5 +1,5 @@
 import './globals.scss'
-import 'normalize.css'
+
 import Header from '@/app/components/header/header';
 import Footer from '@/app/components/footer/footer';
 import { Poppins } from '@next/font/google'

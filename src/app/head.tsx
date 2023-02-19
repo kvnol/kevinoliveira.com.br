@@ -1,3 +1,7 @@
+'use client'
+
+import 'normalize.css'
+
 export default function Head() {
   
   return (
