@@ -1,0 +1,50 @@
+.footer {
+  width: calc(100% - 48px);
+  max-width: 1024px;
+  margin-top: 24px;
+  padding: 24px 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid rgba(var(--color-primary-contrast-rgb), 0.1);
+  text-align: center;
+
+  @media (min-width: 768px) {
+    width: calc(100% - 80px);
+    margin-top: 40px;
+    padding: 40px 0;
+  }
+
+  @media (min-width: 1280px) {
+    margin-top: 48px;
+    padding: 48px 0;
+  }
+}
+
+.links > a:not(:last-child) {
+  margin-right: 16px;
+
+  @media (min-width: 768px) {
+    margin-right: 24px;
+  }
+
+  @media (min-width: 1280px) {
+    margin-right: 32px;
+  }
+}
+
+.copy {
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.5;
+
+  @media (min-width: 768px) {
+    margin-top: 24px;
+    font-size: 16px;
+  }
+
+  @media (min-width: 1280px) {
+    margin-top: 32px;
+    font-size: 18px;
+  }
+}

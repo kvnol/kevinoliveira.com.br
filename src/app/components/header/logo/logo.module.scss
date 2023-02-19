@@ -98,6 +98,7 @@
 .avatar {
   width: auto;
   height: 40px;
+  mix-blend-mode: exclusion;
 
   @media (min-width: 768px) {
     height: 48px;
@@ -105,9 +106,5 @@
 
   @media (min-width: 1280px) {
     height: 60px;
-  }
-
-  @media (prefers-color-scheme: light) {
-    mix-blend-mode: exclusion;
   }
 }
