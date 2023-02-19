@@ -26,12 +26,8 @@
     height: 72px;
   }
 
-  &:hover {
-    transform: scale(1.1);
-
-    .flipper {
-      transform: rotateY(180deg);
-    }
+  &:hover .flipper {
+    transform: rotateY(180deg);
   }
 }
 
