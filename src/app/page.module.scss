@@ -1,5 +1,25 @@
+.main {
+  width: calc(100% - 48px);
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 768px) {
+    width: calc(100% - 80px);
+  }
+}
+
 .presentation {
+  margin-bottom: 32px;
   text-align: center;
+
+  @media (min-width: 768px) {
+    margin-bottom: 40px;
+  }
+
+  @media (min-width: 1280px) {
+    margin-bottom: 48px;
+  }
 
   img {
     display: block;
@@ -42,5 +62,15 @@
     margin: 0;
     font-weight: 300;
     opacity: 0.5;
+  }
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }

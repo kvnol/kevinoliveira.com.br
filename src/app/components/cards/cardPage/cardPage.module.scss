@@ -1,0 +1,87 @@
+.card {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: var(--color-primary);
+
+  @media (min-width: 768px) {
+    padding: 16px;
+  }
+
+  @media (min-width: 1280px) {
+    padding: 20px;
+  }
+
+  &:hover {
+    .icon,
+    .title {
+      opacity: 1;
+    }
+  }
+}
+
+.icon {
+  margin-bottom: 24px;
+  opacity: 0.5;
+  font-size: 16px;
+  transition: 0.2s opacity ease;
+
+  @media (min-width: 768px) {
+    margin-bottom: 32px;
+    font-size: 24px;
+  }
+
+  @media (min-width: 1280px) {
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 500;
+  opacity: 0.5;
+  transition: 0.2s opacity ease;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  background-color: var(--color-secondary);
+  border-radius: 4px;
+  color: var(--color-primary);
+  font-size: 12px;
+
+  @media (min-width: 768px) {
+    width: 16px;
+    height: 16px;
+    font-size: 14px;
+  }
+
+  @media (min-width: 1280px) {
+    width: 18px;
+    height: 18px;
+    font-size: 16px;
+  }
+}
