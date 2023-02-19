@@ -1,9 +1,4 @@
-'use client'
-
-import 'normalize.css'
-
 export default function Head() {
-  
   return (
     <>
       <title>Kevin Oliveira</title>

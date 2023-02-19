@@ -1,7 +1,7 @@
 'use client'
 
 import styles from './footer.module.scss';
-import LinkExternal from '@/app/components/buttons/external/external';
+import LinkExternal from '@/components/buttons/external/external';
 
 export default function Footer() {
   return(
