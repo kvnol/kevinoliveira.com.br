@@ -85,10 +85,10 @@
   @media (min-width: 1280px) {
     width: 36px;
   }
+}
 
-  @media (prefers-color-scheme: dark) {
-    filter: invert(1);
-  }
+:global(.dark) .symbol {
+  filter: invert(1);
 }
 
 .avatar {

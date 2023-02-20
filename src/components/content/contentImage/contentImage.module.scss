@@ -24,3 +24,7 @@
     filter: blur(240px);
   }
 }
+
+:global(.light) .shadow {
+  display: none;
+}

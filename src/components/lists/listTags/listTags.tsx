@@ -11,7 +11,7 @@ export default function ListTags(props: Props) {
       <h2 className={styles.title}>{props.title}</h2>
       <ul className={styles.list}>
         {props.list.map((tag, index) => (
-          <li key="index" className={styles.tag}>{tag}</li>
+          <li key={index} className={styles.tag}>{tag}</li>
         ))}
       </ul>
     </div>
