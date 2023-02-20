@@ -1,0 +1,27 @@
+[
+  {
+    "year": 2014,
+    "title": "Lojas Incor",
+    "description": "Responsável pelo desenvolvimento da interface e cuidado à experiência do usuário das lojas virtuais, criação das campanhas publicitárias, banners e toda a gestão de artes do site utilizando Adobe Photoshop e Adobe Illustrator."
+  },
+  {
+    "year": 2016,
+    "title": "INSANE",
+    "description": "Estruturação de e-mails marketing, focando na performance em dispositivos móveis;Programação e manutenção front-end de projetos online (sites institucionais, landing pages, one pages e blogs), utilizando WordPress, Jekyll, PHP e HTML5."
+  },
+  {
+    "year": 2018,
+    "title": "Pacto.online",
+    "description": "Responsável pela manutenção do UI styleguide da empresa, criação das telas front-end utilizando Figma para prototipação, e Vue.js e Laravel para produção, criação e vazão de e-mails marketings."
+  },
+  {
+    "year": 2018,
+    "title": "Murilhas Comunicação",
+    "description": "Responsável pela manutenção do UI styleguide da empresa, criação das telas front-end utilizando Figma para prototipação, e Vue.js e Laravel para produção, criação e vazão de e-mails marketings."
+  },
+  {
+    "year": "2019",
+    "title": "Din Digital",
+    "description": "Desenvolvimento de sites, aplicações e landing pages utilizando Laravel, WordPress, Vue.js e Angular. Atuando desde a montagem até a integração com APIs."
+  }
+]

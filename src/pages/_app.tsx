@@ -1,5 +1,6 @@
+import 'normalize.css';
 import './globals.scss';
-import 'normalize.css'
+
 import { Poppins } from '@next/font/google'
 
 import Header from '@/components/header/header';
@@ -16,7 +17,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className={poppins.className}>
       <Header />
-      <Component {...pageProps} />
+      <main role="main">
+        <Component {...pageProps} />
+      </main>
       <Footer/>
     </div>
   )

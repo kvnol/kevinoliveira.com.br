@@ -3,7 +3,6 @@ import styles from './index.module.scss';
 import Head from 'next/head';
 import Image from 'next/image';
 
-import Layout from '@/components/layout';
 import CardPage from '@/components/cards/cardPage/cardPage';
 
 export default function Index() {
@@ -12,10 +11,10 @@ export default function Index() {
       <Head>
         <title>Kevin Oliveira</title>
       </Head>
-      
-      <main className={styles.main} role="main">
+
+      <div className="wrapper">
         <article className={styles.presentation}>
-          <Image src="/img/avatar-lg.png" width="280" height="480" alt="" />
+          <Image priority src="/img/avatar-lg.png" width="280" height="480" alt="" />
           <h1>Olá, eu sou <strong>Kevin Oliveira</strong></h1>
           <h2>Front-end e designer</h2>
         </article>
@@ -25,8 +24,8 @@ export default function Index() {
           <CardPage href="/portfolio/" title="Portfólio" icon="folder-add-outline" />
           <CardPage href="/servicos/" title="Serviços" icon="brush-outline" />
           <CardPage href="/blog/" title="Blog" icon="edit-2-outline" />
-        </nav>
-      </main>
+        </nav>  
+      </div>
     </>
   )
 }
