@@ -4,6 +4,10 @@
 }
 
 .item {
+  .title svg {
+    transition: 0.2s transform ease;
+  }
+
   details[open] {
     .title h2 {
       opacity: 1;
