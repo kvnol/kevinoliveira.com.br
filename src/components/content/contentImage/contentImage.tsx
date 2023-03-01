@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from './contentImage.module.scss';
 
 type Props = {
-  children: React.ReactNode,
+  children?: React.ReactNode,
   src: string,
   width: number,
   height: number,

@@ -2,7 +2,7 @@
 
 import toggle from './toggleTheme.module.scss';
 import { Icon } from '@iconify/react';
-import { ChangeEvent } from 'react';
+import { ChangeEvent, LabelHTMLAttributes } from 'react';
 
 const handleToggle = (e: ChangeEvent): void => {
   const $el = e.target as HTMLInputElement;

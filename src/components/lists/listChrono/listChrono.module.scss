@@ -1,0 +1,50 @@
+.list,
+.sublist {
+  list-style: none;
+}
+
+.list-title {
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  color: rgba(var(--color-primary-contrast-rgb), 0.5);
+  font-weight: 400;
+  border-bottom: 1px solid rgba(var(--color-primary-contrast-rgb), 0.1);
+
+  @media (min-width: 768px) {
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+  }
+
+  @media (min-width: 1280px) {
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+  }
+}
+
+.list-item {
+  &:not(:last-child) {
+    margin-bottom: 24px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 32px;
+    }
+
+    @media (min-width: 1280px) {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.sublist-item {
+  &:not(:last-child) {
+    margin-bottom: 16px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 24px;
+    }
+
+    @media (min-width: 1280px) {
+      margin-bottom: 32px;
+    }
+  }
+}

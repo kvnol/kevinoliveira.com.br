@@ -1,0 +1,164 @@
+.card {
+  padding: 16px;
+  background-color: var(--color-primary);
+  border-radius: 8px;
+
+  @media (min-width: 768px) {
+    padding: 24px;
+  }
+
+  @media (min-width: 1280px) {
+    padding: 32px;
+  }
+}
+
+.content {
+  &[open] .title {
+    opacity: 1;
+
+    &::after {
+      content: '-';
+    }
+  }
+
+  &:hover .title {
+    opacity: 0.8;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 8px;
+
+  @media (min-width: 768px) {
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+  }
+
+  @media (min-width: 1280px) {
+    width: 40px;
+    height: 40px;
+    margin-right: 24px;
+  }
+}
+
+.title {
+  position: relative;
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  opacity: 0.5;
+  transition: 0.2s opacity ease;
+
+  @media (min-width: 768px) {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  &::after {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: var(--color-primary-shade);
+    color: var(--color-secondary);
+
+    @media (min-width: 768px) {
+      width: 32px;
+      height: 32px;
+      font-size: 18px;
+      line-height: 32px;
+    }
+
+    @media (min-width: 1280px) {
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+      line-height: 40px;
+    }
+  }
+}
+
+.figure {
+  margin: 16px 0 0;
+
+  @media (min-width: 768px) {
+    margin: 24px 0 0;
+  }
+
+  @media (min-width: 1280px) {
+    margin: 32px 0 0;
+  }
+}
+
+.description {
+  margin-top: 8px;
+  opacity: 0.5;
+
+  @media (min-width: 768px) {
+    margin-top: 16px;
+  }
+
+  @media (min-width: 1280px) {
+    margin-top: 24px;
+  }
+}
+
+.infos {
+  margin-top: 16px;
+
+  @media (min-width: 768px) {
+    margin-top: 24px;
+  }
+
+  @media (min-width: 1280px) {
+    margin-top: 32px;
+  }
+}
+
+.tags {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+  opacity: 0.5;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 18px;
+  }
+
+  li {
+    display: inline-block;
+
+    &:not(:last-child)::after {
+      content: ',';
+      margin-right: 4px;
+    }
+  }
+}
