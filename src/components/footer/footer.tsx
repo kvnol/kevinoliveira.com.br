@@ -2,6 +2,7 @@
 
 import styles from './footer.module.scss';
 import LinkExternal from '@/components/buttons/external/external';
+import Link from 'next/link';
 
 export default function Footer() {
   return(

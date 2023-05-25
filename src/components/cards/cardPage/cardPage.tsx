@@ -4,15 +4,16 @@ import { Icon } from "@iconify/react";
 import Link from "next/link";
 import styles from './cardPage.module.scss';
 
-type Props = {
+interface Props {
   href: string,
   title: string,
-  icon: string
+  icon: string,
+  target?: '_self' | '_blank',
 }
 
 export default function CardPage(props: Props) {
   return(
-    <Link className={styles.card} href={props.href}>
+    <Link className={styles.card} href={props.href} target={props.target}>
       <Icon className={styles.icon} icon={`eva:${props.icon}`} />
 
       <div className={styles.content}>

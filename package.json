@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "@iconify-icons/eva": "^1.2.6",
-    "@iconify/react": "^4.1.0"
+    "@iconify/react": "^4.1.0",
+    "gray-matter": "^4.0.3"
   }
 }

@@ -19,10 +19,9 @@ export default function CardJob(props: Props) {
 
           <h3 className={styles.title}>{props.title}</h3>
         </summary>
-        <ContentImage src={`/img/portfolio/thumb-${props.slug}.png`} width={296} height={186} alt="" />
-        {/* <figure className={styles.figure}>
+        <figure className={styles.figure}>
           {props.slug ? <Image src={`/img/portfolio/thumb-${props.slug}.png`} width="296" height="186" loading="lazy" alt="" /> : ''}
-        </figure> */}
+        </figure>
         <p className={styles.description}>{props.description}</p>
       </details>
       <div className={styles.infos}>

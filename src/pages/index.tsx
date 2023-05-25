@@ -23,7 +23,7 @@ export default function Index() {
           <CardPage href="/sobre/" title="Sobre mim" icon="person-add-fill" />
           <CardPage href="/portfolio/" title="Portfólio" icon="folder-add-outline" />
           <CardPage href="/servicos/" title="Serviços" icon="brush-outline" />
-          <CardPage href="/blog/" title="Blog" icon="edit-2-outline" />
+          <CardPage href="https://dev.to/kvnol" title="Blog" icon="edit-2-outline" target="_blank" />
         </nav>  
       </div>
     </>
