@@ -27,7 +27,7 @@ export default function ListChrono(props: Props) {
         <ul className={styles.sublist}>
           {list.jobs.map((job, index) => (
             <li className={styles['sublist-item']} key={index}>
-              <CardJob slug={job.slug} title={job.title} description={job.description} tags={job.tags} />
+              <CardJob title={job.title} description={job.description} tags={job.tags} />
             </li>
           ))}
         </ul>
