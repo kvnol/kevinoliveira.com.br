@@ -77,6 +77,10 @@
       font-size: 40px;
     }
   }
+
+  &::-webkit-details-marker {
+    display: none;
+  }
 }
 
 .content {
