@@ -1,0 +1,327 @@
+[
+  {
+    "year": 2023,
+    "jobs": [
+      {
+        "slug": "",
+        "title": "Kevin Oliveira",
+        "description": "Redesign e desenvolvimento deste meu novo site feito com Next.js",
+        "tags": ["design", "front-end", "nextjs"]
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "jobs": [
+      {
+        "slug": "movesq",
+        "title": "Movesq",
+        "description": "Redesign e montagem do site da Movesq utilizando Laravel e Vue.",
+        "tags": ["design", "front-end"]
+      },
+      {
+        "title": "Carrefour Property",
+        "description": "Montagem e integração do novo portal do Carrefour Property.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "wordpress"]
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "jobs": [
+      {
+        "title": "Juca Neto",
+        "description": "Montagem do site Juca Neto utilizando Laravel Blade e Vue.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "laravel blade", "vue"]
+      },
+      {
+        "title": "Downstage",
+        "description": "Design, montagem e integração do Portal Downstage em WordPress.",
+        "image": "",
+        "logo": "",
+        "tags": ["design", "front-end", "wordpress"]
+      },
+      {
+        "title": "William Sanches",
+        "description": "Montagem e integração do novo site do William Sanches.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "wordpress"]
+      },
+      {
+        "title": "HSA",
+        "description": "Montagem e integração do novo site do HSA utilizando Angular.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "angular"]
+      },
+      {
+        "title": "Bandas de 1 Álbum",
+        "description": "Idealização, design e desenvolvimento do projeto Bandas de 1 Álbum",
+        "image": "",
+        "logo": "",
+        "tags": ["design", "front-end", "angular"]
+      },
+      {
+        "title": "MIGNOW",
+        "description": "Montagem e integração do site do MIGNOW utilizando WordPress.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "wordpress"]
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "jobs": [
+      {
+        "title": "Grupo Carrefour Brasil",
+        "description": "Montagem e integração do novo portal do Grupo Carrefour Brasil.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "wordpress"]
+      },
+      {
+        "title": "Myralis",
+        "description": "Desenvolvimento do site da Myralis.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "angular"]
+      },
+      {
+        "title": "Amazon Lord",
+        "description": "Design e integração do site Amazon Lord.",
+        "image": "",
+        "logo": "",
+        "tags": ["design", "wordpress"]
+      },
+      {
+        "title": "Sua Breja",
+        "description": "Desenvolvimento do site Sua Breja.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "vue"]
+      },
+      {
+        "title": "Maritimos",
+        "description": "Montagem do novo site da Maritimos utilizando Laravel Blade e Sass, depois migrado do Laravel para WordPress",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "laravel blade", "wordpress"]
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "jobs": [
+      {
+        "title": "Chikas Cosméticos",
+        "description": "Desenvolvimento do site Chikas Cosméticos utilizando Handlebars e Sass.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "wordpress"]
+      },
+      {
+        "title": "headdocs",
+        "description": "Desenvolvimento do site headdocs utilizando WordPress.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "wordpress"]
+      },
+      {
+        "title": "Museu A Casa do Objeto Brasileiro",
+        "description": "Desenvolvimento do site do Museu A Casa do Objeto Brasileiro utilizando WordPress.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "wordpress"]
+      },
+      {
+        "title": "Estância Sports",
+        "description": "Desenvolvimento da landing page Estância Sports utilizando Pug e Sass.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end"]
+      },
+      {
+        "title": "Zaic Singularidade",
+        "description": "Desenvolvimento da landing page Singularidade da Zaic Branding utilizando Pug e Sass.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end"]
+      },
+      {
+        "title": "Label Tech",
+        "description": "Desenvolvimento do site Label Tech utilizando Pug e Sass.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end"]
+      },
+      {
+        "title": "Zaic Branding",
+        "description": "Desenvolvimento do site Zaic Branding utilizando WordPress e Vue.js.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "wordpress", "vue"]
+      },
+      {
+        "title": "Relatório Arapyaú",
+        "description": "Desenvolvimento do relatório Arapyaú em Pug e Sass.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end"]
+      },
+      {
+        "title": "Santa Casa Mauá Saúde",
+        "description": "Desenvolvimento do site do Plano de Saúde Santa Casa Mauá utilizando WordPress e Vue.js.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "wordpress", "vue"]
+      },
+      {
+        "title": "Na Pressão",
+        "description": "Desenvolvimento do site Na Pressão da CUT utilizando Laravel Blade e Sass.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "laravel blade"]
+      },
+      {
+        "title": "Pletora Filmes",
+        "description": "Desenvolvimento da landing page da Pletora Filmes.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end"]
+      },
+      {
+        "title": "Minha Nutricionista",
+        "description": "Desenvolvimento da landing page Minha Nutricionista da Vale Saúde Sempre utilizando Vue.js.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "vue"]
+      },
+      {
+        "title": "Estância Pet",
+        "description": "Desenvolvimento da landing page Estância Pet utilizando Pug e Sass.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end"]
+      },
+      {
+        "title": "Widepower",
+        "description": "Desenvolvimento do site do Widepower utilizando WordPress.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "wordpress"]
+      },
+      {
+        "title": "Conferência Nacional da CUT",
+        "description": "Desenvolvimento do site Conferência Nacional da CUT utilizando WordPress.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "wordpress"]
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "jobs": [
+      {
+        "title": "Vale Saúde Prestador",
+        "description": "Desenvolvimento do site Prestador do Vale Saúde Sempre utilizando Vue.js e Laravel Blade.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end", "laravel blade", "vue"]
+      },
+      {
+        "title": "Grupo Anpla",
+        "description": "Desenvolvimento do site do Grupo Anpla utilizando Pug e Sass.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end"]
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "jobs": [
+      {
+        "title": "Casa Rossi",
+        "description": "Desenvolvimento do site da Casa Rossi utilizando Jekyll.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end"]
+      },
+      {
+        "title": "Saúde Cartão Mais",
+        "description": "Desenvolvimento da landing page Saúde Cartão Mais da Vale Saúde Sempre com Pug e Sass.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end"]
+      },
+      {
+        "title": "Agência Insane",
+        "description": "Desenvolvimento da página Agência Insane com Pug e Sass.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end"]
+      },
+      {
+        "title": "Estância Casamentos",
+        "description": "Desenvolvimento do site Casamentos do Estância Alto da Serra com Pug e Sass.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end"]
+      },
+      {
+        "title": "Essence Retail",
+        "description": "Desenvolvimento da landing page Essence Retail com Pug e Sass.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end"]
+      },
+      {
+        "title": "Tesf Policlínica",
+        "description": "Desenvolvimento do site da Tesf Policlínica utilizando Jekyll.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end"]
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "jobs": [
+      {
+        "title": "C2com",
+        "description": "Desenvolvimento do site da C2com utilizando Jekyll.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end"]
+      },
+      {
+        "title": "Oficina Inteligente",
+        "description": "Desenvolvimento do site da Oficina Inteligente utilizando Jekyll.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end"]
+      },
+      {
+        "title": "Edifício New England",
+        "description": "Desenvolvimento da landing page do Edifício New England utilizando Jekyll.",
+        "image": "",
+        "logo": "",
+        "tags": ["front-end"]
+      },
+      {
+        "title": "Lojas Incor",
+        "description": "Redesenho da marca/layout e desenvolvimento do front-end do E-commerce (Fbits)",
+        "image": "",
+        "logo": "",
+        "tags": ["design", "front-end", "branding"]
+      }
+    ]
+  }
+]

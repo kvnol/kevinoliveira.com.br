@@ -1,0 +1,30 @@
+@keyframes rotate {
+  from {
+    transform: scale(1) rotate(0deg);
+  }
+
+  to {
+    transform: scale(1.5) rotate(360deg);
+  }
+}
+
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(80px);
+  animation: rotate infinite 10s linear alternate;
+
+  @media (min-width: 768px) {
+    filter: blur(160px);
+  }
+
+  @media (min-width: 1280px) {
+    filter: blur(240px);
+  }
+}
+
+:global(.light) .shadow {
+  display: none;
+}

@@ -1,0 +1,43 @@
+.button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  color: var(--color-secondary);
+
+  @media (min-width: 768px) {
+    font-size: 18px;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 20px;
+  }
+
+  svg {
+    margin-left: 8px;
+    transition: 0.2s transform ease;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    display: block;
+    height: 1px;
+    width: 0;
+    transition: 0.2s width ease;
+    background-color: var(--color-secondary);
+    opacity: 0.5;
+  }
+
+  &:hover {
+    svg {
+      transform: translateX(4px);
+    }
+
+    &::after {
+      width: 100%;
+    }
+  }
+}

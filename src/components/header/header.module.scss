@@ -1,0 +1,54 @@
+.header {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 48px);
+  max-width: 1024px;
+  margin: 24px auto;
+  gap: 16px;
+
+  @media (min-width: 768px) {
+    width: calc(100% - 80px);
+    margin: 40px auto;
+    gap: 32px;
+  }
+
+  @media (min-width: 1280px) {
+    margin: 48px auto;
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-right: auto;
+
+  @media (min-width: 768px) {
+    gap: 24px;
+  }
+
+  @media (min-width: 1280px) {
+    gap: 32px;
+  }
+}
+
+.menu-item {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.5;
+
+  @media (min-width: 1280px) {
+    font-size: 16px;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.active {
+  opacity: 1;
+}

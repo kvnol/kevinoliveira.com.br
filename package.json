@@ -1,27 +1,36 @@
 {
   "name": "kevinoliveira.com.br",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "./node_modules/.bin/webpack --watch | bundle exec jekyll serve --livereload --incremental",
-    "build": "./node_modules/.bin/webpack --build | bundle exec jekyll build"
-  },
+  "version": "0.1.0",
+  "private": true,
   "engines": {
-    "node": "14.1.0"
+    "node": "16.13.2"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
-    "babel-loader": "^8.1.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "axios": "^0.21.0",
-    "clipboard": "^2.0.6",
-    "spotify-web-api-js": "^1.5.1"
+    "@next/font": "13.1.6",
+    "@types/node": "18.14.0",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "eslint-config-prettier": "^8.6.0",
+    "next": "13.1.6",
+    "normalize.css": "^8.0.1",
+    "prettier": "^2.8.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.58.3",
+    "sharp": "^0.31.3",
+    "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@iconify-icons/eva": "^1.2.6",
+    "@iconify/react": "^4.1.0",
+    "gray-matter": "^4.0.3"
   }
 }
