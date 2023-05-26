@@ -11,7 +11,6 @@ type ListProps = {
 }
 
 type JobProps = {
-  slug: string,
   title: string,
   description: string,
   tags: Array<string>
