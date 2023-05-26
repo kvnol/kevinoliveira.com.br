@@ -1,7 +1,4 @@
-import ContentImage from '@/components/content/contentImage/contentImage';
 import ListTags from '@/components/lists/listTags/listTags';
-import Image from 'next/image';
-import { SyntheticEvent } from 'react';
 import styles from './cardJob.module.scss';
 
 type Props = {
