@@ -6,6 +6,11 @@
         "title": "Kevin Oliveira",
         "description": "Redesign e desenvolvimento deste meu novo site feito com Next.js",
         "tags": ["design", "front-end", "nextjs"]
+      },
+      {
+        "title": "Leandro Pellarin",
+        "description": "Montagem e integração do novo site do cirurgião plástico Leandro Pellarin, utilizando WordPress.",
+        "tags": ["front-end", "wordpress"]
       }
     ]
   },
