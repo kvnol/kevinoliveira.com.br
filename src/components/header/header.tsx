@@ -7,7 +7,7 @@ import ToggleTheme from './toggleTheme/toggleTheme';
 export default function Header() {
   const router = useRouter();
 
-  return(
+  return (
     <header role="banner" className={styles.header}>
       <Logo />
       <nav className={styles.menu}>

@@ -3,6 +3,11 @@
     "year": 2023,
     "jobs": [
       {
+        "title": "Dr Pet",
+        "description": "Montagem e integração do novo site e painel Dr Pet feito com Laravel Blade e Vue",
+        "tags": ["front-end", "laravel blade", "vue"]
+      },
+      {
         "title": "Kevin Oliveira",
         "description": "Redesign e desenvolvimento deste meu novo site feito com Next.js",
         "tags": ["design", "front-end", "nextjs"]

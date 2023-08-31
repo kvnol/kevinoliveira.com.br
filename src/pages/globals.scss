@@ -4,13 +4,11 @@
   margin: 0;
 }
 
-html {
-  height: 100%;
-}
-
 html,
-body {
+body,
+#__next {
   max-width: 100vw;
+  min-height: 100%;
   overflow-x: hidden;
 }
 
@@ -47,6 +45,12 @@ body {
     --color-secondary: #4c42ff;
     --color-secondary-rgb: 255, 203, 68;
   }
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .wrapper {

@@ -6,7 +6,7 @@ import { Poppins } from '@next/font/google'
 import Header from '@/components/header/header';
 import Footer from '@/components/footer/footer';
 import { AppProps } from 'next/app';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 const poppins = Poppins({
   weight: ['300', '500', '600'],
@@ -14,7 +14,8 @@ const poppins = Poppins({
   subsets: ['latin']
 })
 
-export default function MyApp({ Component, pageProps }: AppProps) { 
+
+export default function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     if (!document.body.classList.length) {
       document.body.classList.add('dark');
@@ -22,12 +23,12 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   })
 
   return (
-    <div className={poppins.className}>
+    <div className={`${poppins.className} app`}>
       <Header />
       <main role="main">
         <Component {...pageProps} />
       </main>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
