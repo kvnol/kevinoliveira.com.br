@@ -16,7 +16,7 @@ export default function Sobre() {
       <div className="wrapper">
         <div className="content">
           <h1>Sobre mim</h1>
-          <p>E aí! Meu nome é Kevin Oliveira, nasci em 1997 em Santo André, SP. Sou desenvolvedor front-end 💻 e designer 🎨. Atualmente trabalho na <Link href="https://dindigital.io/" target="_blank">Din Digital</Link> e sou músico nas horas vagas.</p>
+          <p>E aí! Meu nome é Kevin Oliveira, nasci em 1997 em Santo André, SP. Sou desenvolvedor front-end 💻 e designer 🎨. Atualmente trabalho na <Link href="https://docway.com.br/" target="_blank">Docway</Link> e sou músico nas horas vagas.</p>
         </div>
 
         <ContentImage src="/img/code-in-the-dark.png" width={1024} height={560} alt="Kevin Oliveira codando sobre extrema pressão e luzes piscantes no Code In The Dark 2023">
@@ -36,11 +36,12 @@ export default function Sobre() {
           </ListTimeline>
 
           <ListTags title="Competências" list={[
-            'HTML', 
-            'CSS', 
+            'HTML',
+            'CSS',
             'JavaScript',
             'Jekyll',
             'Vue',
+            'React',
             'Angular',
             'WordPress',
             'Git',
