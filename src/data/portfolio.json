@@ -5,7 +5,8 @@
       {
         "title": "99Vidas Podcast",
         "description": "Redesign do branding e do site do 99Vidas Podcast utilizando Figma, montagem e integração feito com WordPress.",
-        "tags": ["branding", "design", "front-end", "wordpress"]
+        "tags": ["branding", "design", "front-end", "wordpress"],
+        "image": "https://cdn.dribbble.com/userupload/14414474/file/original-cc09d279453cf421d55f5feb40f0be92.png?resize=720x560"
       }
     ]
   },
@@ -55,7 +56,8 @@
       {
         "title": "Downstage",
         "description": "Design, montagem e integração do Portal Downstage em WordPress.",
-        "tags": ["design", "front-end", "wordpress"]
+        "tags": ["design", "front-end", "wordpress"],
+        "image": "https://cdn.dribbble.com/users/5072567/screenshots/16331273/media/a56e3aaf18124e953e12b92c5b09e286.png?resize=720x560"
       },
       {
         "title": "William Sanches",
@@ -70,7 +72,8 @@
       {
         "title": "Bandas de 1 Álbum",
         "description": "Idealização, design e desenvolvimento do projeto Bandas de 1 Álbum",
-        "tags": ["design", "front-end", "angular"]
+        "tags": ["design", "front-end", "angular"],
+        "image": "https://cdn.dribbble.com/userupload/8309590/file/original-664a1e30a6cfa4580517c9776925556e.png?resize=720x560"
       },
       {
         "title": "MIGNOW",
@@ -95,7 +98,8 @@
       {
         "title": "Amazon Lord",
         "description": "Design e integração do site Amazon Lord.",
-        "tags": ["design", "wordpress"]
+        "tags": ["design", "wordpress"],
+        "image": "https://cdn.dribbble.com/users/5072567/screenshots/11546255/media/41b25cd25da925c56aabd71d572b6e54.png?resize=720x560"
       },
       {
         "title": "Sua Breja",
