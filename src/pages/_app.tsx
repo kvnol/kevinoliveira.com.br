@@ -1,5 +1,6 @@
 import 'normalize.css';
 import './globals.scss';
+import { GoogleTagManager } from '@next/third-parties/google'
 
 import { Poppins } from '@next/font/google'
 
@@ -25,6 +26,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className={`${poppins.className} app`}>
       <Header />
+      <GoogleTagManager gtmId="GTM-XYZ" />
       <main role="main">
         <Component {...pageProps} />
       </main>
