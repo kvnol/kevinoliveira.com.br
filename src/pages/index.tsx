@@ -9,18 +9,18 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Kevin Oliveira</title>
+        <title>Kevin Oliveira | Front-end & UI Designer</title>
         <meta name="description" content="Front-end Developer at Din Digital, previously at Agência Murilhas. Frontend & Design."/>
 
         <meta property="og:url" content="https://kevinoliveira.com.br/"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Kevin Oliveira"/>
+        <meta property="og:title" content="Kevin Oliveira | Front-end & UI Designer"/>
         <meta property="og:description" content="Front-end Developer at Din Digital, previously at Agência Murilhas. Frontend & Design."/>
         <meta property="og:image" content="https://kevinoliveira.com.br/img/code-in-the-dark.png"/>
 
         <meta name="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://kevinoliveira.com.br/"/>
-        <meta name="twitter:title" content="Kevin Oliveira"/>
+        <meta name="twitter:title" content="Kevin Oliveira | Front-end & UI Designer"/>
         <meta name="twitter:description" content="Front-end Developer at Din Digital, previously at Agência Murilhas. Frontend & Design."/>
         <meta name="twitter:image" content="https://kevinoliveira.com.br/img/code-in-the-dark.png"/>
         <link rel="icon" href="/favicon.ico" />
@@ -42,7 +42,7 @@ export default function Index() {
           <CardPage href="/portfolio/" title="Portfólio" icon="folder-add-outline" />
           <CardPage href="/servicos/" title="Serviços" icon="brush-outline" />
           <CardPage href="https://dev.to/kvnol" title="Blog" icon="edit-2-outline" target="_blank" />
-        </nav>  
+        </nav>
       </div>
     </>
   )
