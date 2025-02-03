@@ -4,8 +4,8 @@
     "jobs": [
       {
         "title": "99Vidas Podcast",
-        "description": "Redesign do branding e do site do 99Vidas Podcast utilizando Figma, montagem e integração feito com WordPress.",
-        "tags": ["branding", "design", "front-end", "wordpress"],
+        "description": "Redesign do branding e do site do 99Vidas Podcast utilizando Figma, montagem com Blade/Vue e integração feita com WordPress.",
+        "tags": ["branding", "design", "front-end", "wordpress", "vue"],
         "image": "https://cdn.dribbble.com/userupload/14414474/file/original-cc09d279453cf421d55f5feb40f0be92.png?resize=720x560"
       }
     ]
