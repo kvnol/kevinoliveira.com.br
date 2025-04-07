@@ -1,5 +1,16 @@
 [
   {
+    "year": 2025,
+    "jobs": [
+      {
+        "title": "GK Empreendimentos",
+        "description": "Redesign do site melhorando a experiência dos times de operação e backoffice com integração da api do Google Spreadsheets para controle de disponibilidade e informações dos empreendimentos imobiliários.",
+        "tags": ["branding", "design", "front-end", "wordpress"],
+        "image": "https://cdn.dribbble.com/userupload/42835698/file/original-4c6e86970b43f40a90f3bb448e61f271.png?resize=1024x768&vertical=center"
+      }
+    ]
+  },
+  {
     "year": 2024,
     "jobs": [
       {
