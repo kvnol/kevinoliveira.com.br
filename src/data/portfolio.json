@@ -3,6 +3,11 @@
     "year": 2025,
     "jobs": [
       {
+        "title": "Expresso 1923",
+        "description": "Redesign do site institucional do canal Expresso 1923.",
+        "tags": ["design", "front-end", "wordpress"]
+      },
+      {
         "title": "GK Empreendimentos",
         "description": "Redesign do site melhorando a experiência dos times de operação e backoffice com integração da api do Google Spreadsheets para controle de disponibilidade e informações dos empreendimentos imobiliários.",
         "tags": ["branding", "design", "front-end", "wordpress"],
