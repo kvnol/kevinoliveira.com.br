@@ -4,7 +4,7 @@
     "jobs": [
       {
         "title": "Expresso 1923",
-        "description": "Redesign do site institucional do canal Expresso 1923.",
+        "description": "Redesign do site do canal Expresso 1923 utilizando Figma, montagem e integração feita com WordPress.",
         "tags": ["design", "front-end", "wordpress"]
       },
       {
